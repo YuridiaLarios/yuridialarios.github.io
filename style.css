@@ -58,8 +58,6 @@ p {
 #container #left {
   width: 400px;
   float: left;
-  background-image: -webkit-linear-gradient(#ffffff,  #999999);
-  background-color: #EEEEEE;
   height: auto;
   padding: 10px;
 
@@ -68,6 +66,8 @@ p {
 #container #right {
   width: 650px;
   float: right;
+  background-image: -webkit-linear-gradient(#ffffff,  #999999);
+
 }
 
 .Skills, .Awards-and-Certificates, .Languages {
