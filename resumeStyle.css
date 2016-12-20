@@ -1,0 +1,68 @@
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One';
+
+body {
+  position: absolute;
+  height: 100%;
+  width: 100%
+
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 55px;
+  color: Black;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #8B132A;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  margin-left: 445px;
+
+}
+
+.thumbnail-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 100%;
+  box-shadow: 40px 43px 96px -30px rgba(0, 0, 0, 0.75);
+}
+
+#container {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#container #left {
+  width: 400px;
+  float: left;
+  background-image: -webkit-linear-gradient(#ffffff,  #999999);
+  background-color: #EEEEEE;
+  height: auto;
+  padding: 10px;
+
+}
+
+#container #right {
+  width: 650px;
+  float: right;
+}
+
+.Skills, .Awards-and-Certificates, .Languages {
+  font-size: 17px;
+}
