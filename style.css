@@ -57,6 +57,21 @@ p {
   padding:0;
 }
 
+
+.jumbotron2{
+  background-image:url('http://i.imgur.com/MoMR4FX.png');
+  background-attachment: fixed;
+  min-height: 500px;
+  margin-bottom: 0px;
+  width:100%;
+  padding:0;
+}
+
+
+.navbar{
+  background-color: white;
+}
+
 .my-navbar{
   background: white;
   border-radius: 0;
