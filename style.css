@@ -24,6 +24,16 @@ h3{
   padding:0;
 }
 
+
+.jumbotron2{
+  background-image:url('http://i.imgur.com/FkSHoT0.jpg');
+  background-attachment: fixed;
+  min-height: 200px;
+  margin-bottom: 0px;
+  width:100%;
+  padding:0;
+}
+
 .thumbnail-picture {
   display: block;
   margin-left: auto;
