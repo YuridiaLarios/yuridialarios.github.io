@@ -1,13 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Fjalla+One';
-*{
-  margin:0;
-  padding:0;
-}
+
 body {
   position: absolute;
   height: 100%;
   width: 100%
-  overflow-x: hidden;
 
 }
 
@@ -58,7 +54,7 @@ p {
   min-height: 500px;
   margin-bottom: 0px;
   width:100%;
-  padding:0px;
+  padding:0;
 }
 
 
@@ -66,67 +62,60 @@ p {
   background-image:url('http://i.imgur.com/MoMR4FX.png');
   background-attachment: fixed;
   min-height: 500px;
-  margin-top:0px;
   margin-bottom: 0px;
   width:100%;
-  padding:0px;
+  padding:0;
 }
 
 
-nav{
-  position: fixed;
-  z-index: 1000;
-  top:0;
-  botton:0;
-  width: 200px;
+.navbar{
   background-color: white;
-  transform:translate3d(-200px,0,0);
-  transition: transform 0.4s ease;
 }
 
-.active-nav nav{
-  transform: translate3d(0,0,0);
+.my-navbar{
+  background: white;
+  border-radius: 0;
+  border: 0;
 }
 
-nav ul{
+.navbar-default{
+  background-color: #ffffff;
+  height: 100%;
+}
+
+.col-sm-3{
+  width: 40%;
+  height: 100%;
+}
+
+
+/*sidebar styling*/
+.sidebar-nav{
+  padding: 0;
   list-style: none;
-  margin-top: 100px;
+}
+
+.sidebar-nav li{
   text-indent: 20px;
   line-height: 40px;
 }
 
-nav ul li a{
-  text-decoration: none;
+.sidebar-nav li a{
   display: block;
-  text-align: center;
+  text-decoration: none;
   color: #136100;
   font-weight: bold;
-  padding: 10px 0;
 
 }
 
-
-nav li a:hover{
+.sidebar-nav li a:hover{
   background: #f30056;
 }
 
 
-.nav-toggle-btn{
-  display: block;
-  position: absolute;
-  left:200px;
-  width:40px;
-  height: 40px;
-  background-color: #666;
-}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7,
+.col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+  padding-right: 0px;
+  padding-left: 0px;
 
-.content{
-  paddint-top: 300px;
-  height: 2000px;
-  text-align: center;
-  transition: transform 0.4s ease;
-}
-
-.active-nav .content{
-  transform: translate3d(200px, 0, 0);
 }
