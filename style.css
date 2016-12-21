@@ -18,7 +18,7 @@ h3{
 .jumbotron{
   background-image:url('http://i.imgur.com/Y3I1Oa7.png');
   background-attachment: fixed;
-  min-height: 500px;
+  min-height: 200px;
   margin-bottom: 0px;
   width:100%;
   padding:0;
@@ -28,7 +28,7 @@ h3{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 20%;
   height: auto;
   border-radius: 100%;
   box-shadow: 40px 43px 96px -30px rgba(0, 0, 0, 0.75);
