@@ -20,7 +20,7 @@ h3{
   background-attachment: fixed;
   min-height: 200px;
   margin-top:0px;
-  margin-bottom: 0px;
+  margin-bottom:0px;
   width:100%;
   padding:0;
 }
@@ -126,7 +126,7 @@ nav ul li a:hover{
 }
 
 .content {
-    padding-top: 5px;
+    padding-top: 0px;
     height: 2000px;
     background-image: url('http://i.imgur.com/q9krggw.jpg');
     text-align: center;
