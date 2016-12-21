@@ -85,6 +85,19 @@ p {
   margin:0px;
 }
 
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: white; /*BACKGROUND color for active*/
+background-color: #030033;
+}
+
+  .navbar-default {
+    background-color: #0f006f;
+    border-color: #030033;
+}
+
 .navbar-default{
   background-color: #ffffff;
   height: 100%;
