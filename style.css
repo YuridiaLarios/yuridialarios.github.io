@@ -48,26 +48,9 @@ p {
   width: 80%;
 }
 
-#sidebar-wrapper{
-  z-index: 1;
-  position: absolute;
-  width: 0;
-  height: auto;
-  overflow-y: hidden;
-  background: #f116db;
-  boder: 2px solid red;
-}
-
-#page-content-wrapper{
-  width: 100%;
-  position: absolute;
-  padding: 15px;
-  border: 5px solid green;
-}
-
 .navbar-default{
-  height: 100%;
   background-color: #ffffff;
+  height: 100%;
 }
 
 .col-sm-3{
@@ -76,21 +59,11 @@ p {
 }
 
 
-/*change the width of the sidebar  to display it*/
-.menuDisplayed #sidebar-wrapper{
-  width:250px;
-}
-
-.menuDisplayed #sidebar-wrapper{
-  padding-left: 250px;
-}
-
 /*sidebar styling*/
 .sidebar-nav{
   padding: 0;
   list-style: none;
 }
-
 
 .sidebar-nav li{
   text-indent: 20px;
@@ -101,6 +74,7 @@ p {
   display: block;
   text-decoration: none;
   color: #136100;
+  font-weight: bold;
 
 }
 
