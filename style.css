@@ -21,6 +21,7 @@ h3{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  height: auto;
   border-radius: 100%;
   box-shadow: 40px 43px 96px -30px rgba(0, 0, 0, 0.75);
 }
@@ -38,9 +39,9 @@ nav {
     z-index: 1000;
     top: 0;
     bottom: 0;
-    width: 200px;
+    width: 150px;
     background-color: white;
-    transform: translate3d(-200px, 0, 0);
+    transform: translate3d(-150px, 0, 0);
     transition: transform 0.4s ease;
 }
 .active-nav nav {
@@ -69,7 +70,7 @@ nav ul li a:hover{
 .nav-toggle-btn {
     display: block;
     position: absolute;
-    left: 200px;
+    left: 150px;
 
 }
 
@@ -83,12 +84,12 @@ nav ul li a:hover{
 }
 
 .content {
-    padding-top: 200px;
+    padding-top: 150px;
     height: 2000px;
     background-color: #ccf;
     text-align: center;
     transition: transform 0.4s ease;
 }
 .active-nav .content {
-    transform: translate3d(200px, 0, 0);
+    transform: translate3d(150px, 0, 0);
 }
