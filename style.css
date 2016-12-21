@@ -8,7 +8,11 @@
 body {
     font-family: Open Sans, Arial, sans-serif;
     overflow-x: hidden;
-    text-align: center;
+  
+}
+
+h3{
+  text-align: center;
 }
 
 
