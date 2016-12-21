@@ -86,7 +86,7 @@ nav ul li a:hover{
 .content {
     padding-top: 150px;
     height: 2000px;
-    background-color: #ccf;
+    background-image: url('http://i.imgur.com/q9krggw.jpg');
     text-align: center;
     transition: transform 0.4s ease;
 }
