@@ -19,6 +19,7 @@ h3{
   background-image:url('http://i.imgur.com/Y3I1Oa7.png');
   background-attachment: fixed;
   min-height: 200px;
+  margin-top:0px;
   margin-bottom: 0px;
   width:100%;
   padding:0;
@@ -29,10 +30,33 @@ h3{
   background-image:url('http://i.imgur.com/FkSHoT0.jpg');
   background-attachment: fixed;
   min-height: 200px;
+  margin-top:0px;
   margin-bottom: 0px;
   width:100%;
   padding:0;
 }
+
+.jumbotron3{
+  background-image:url('http://i.imgur.com/drnKi3a.jpg');
+  background-attachment: fixed;
+  min-height: 200px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  width:100%;
+  padding:0;
+}
+
+.jumbotron4{
+  background-image:url('http://i.imgur.com/s4SpTMD.jpg');
+  background-attachment: fixed;
+  min-height: 200px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  width:100%;
+  padding:0;
+}
+
+
 
 .thumbnail-picture {
   display: block;
