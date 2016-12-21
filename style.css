@@ -102,8 +102,8 @@ nav ul li a:hover{
 }
 
 .content {
-    padding-top: 15px;
-    height: 1000px;
+    padding-top: 5px;
+    height: 2000px;
     background-image: url('http://i.imgur.com/q9krggw.jpg');
     text-align: center;
     transition: transform 0.4s ease;
