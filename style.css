@@ -48,6 +48,13 @@ p {
   width: 80%;
 }
 
+.jumbotron{
+  background-image:url('http://i.imgur.com/Y3I1Oa7.png');
+  background-attachment: fixed;
+  min-height: 500px;
+  margin-bottom: 0px;
+}
+
 .my-navbar{
   background: white;
   border-radius: 0;
