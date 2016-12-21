@@ -97,10 +97,11 @@ p {
 }
 .col-sm-3{
   width: 40%;
-  height: auto;
+  height: 100%;
 }
 
 .navbar-default{
+  height: 100%;
   background-color: #ffffff;
 }
 
