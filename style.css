@@ -8,6 +8,7 @@
 body {
     font-family: Open Sans, Arial, sans-serif;
     overflow-x: hidden;
+    text-align: center;
 }
 
 
@@ -56,6 +57,7 @@ nav ul li a {
 nav ul li a:hover{
 
   background: #f30056;
+  text-decoration: none;
 
 }
 
