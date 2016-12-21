@@ -53,6 +53,8 @@ p {
   background-attachment: fixed;
   min-height: 500px;
   margin-bottom: 0px;
+  width:100%;
+  padding:0;
 }
 
 .my-navbar{
