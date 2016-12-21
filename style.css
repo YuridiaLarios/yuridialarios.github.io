@@ -56,7 +56,7 @@ p {
   min-height: 500px;
   margin-bottom: 0px;
   width:100%;
-  padding:0;
+  padding:0px;
 }
 
 
@@ -64,30 +64,40 @@ p {
   background-image:url('http://i.imgur.com/MoMR4FX.png');
   background-attachment: fixed;
   min-height: 500px;
+  margin-top:0px;
   margin-bottom: 0px;
   width:100%;
-  padding:0;
+  padding:0px;
 }
 
 
 .navbar{
   background-color: white;
+  padding:0px;
+  margin:0px;
 }
 
 .my-navbar{
   background: white;
   border-radius: 0;
   border: 0;
+  padding:0px;
+  margin:0px;
 }
 
 .navbar-default{
   background-color: #ffffff;
   height: 100%;
+  padding: 0px;
+  margin:0px;
 }
 
 .col-sm-3{
   width: 40%;
   height: 100%;
+  margin:0px;
+  padding:0px;
+
 }
 
 
@@ -95,6 +105,8 @@ p {
 .sidebar-nav{
   padding: 0;
   list-style: none;
+  padding:0px;
+  margin:0px;
 }
 
 .sidebar-nav li{
