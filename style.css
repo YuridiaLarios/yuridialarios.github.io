@@ -38,9 +38,9 @@ nav {
     z-index: 1000;
     top: 0;
     bottom: 0;
-    width: 300px;
+    width: 200px;
     background-color: white;
-    transform: translate3d(-300px, 0, 0);
+    transform: translate3d(-200px, 0, 0);
     transition: transform 0.4s ease;
 }
 .active-nav nav {
@@ -69,12 +69,12 @@ nav ul li a:hover{
 .nav-toggle-btn {
     display: block;
     position: absolute;
-    left: 300px;
+    left: 200px;
 
 }
 
 .glyphicon{
-  font-size: 5 em;
+  font-size: 15 em;
 
 }
 
@@ -83,12 +83,12 @@ nav ul li a:hover{
 }
 
 .content {
-    padding-top: 300px;
+    padding-top: 200px;
     height: 2000px;
     background-color: #ccf;
     text-align: center;
     transition: transform 0.4s ease;
 }
 .active-nav .content {
-    transform: translate3d(300px, 0, 0);
+    transform: translate3d(200px, 0, 0);
 }
