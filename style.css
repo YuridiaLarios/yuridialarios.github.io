@@ -1,5 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Fjalla+One';
-
+*{
+  padding:0;
+}
 body {
   position: absolute;
   height: 100%;
