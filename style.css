@@ -65,6 +65,17 @@ p {
   border: 5px solid green;
 }
 
+.navbar-default{
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.col-sm-3{
+  width: 40%;
+  height: 100%;
+}
+
+
 /*change the width of the sidebar  to display it*/
 .menuDisplayed #sidebar-wrapper{
   width:250px;
@@ -80,6 +91,7 @@ p {
   list-style: none;
 }
 
+
 .sidebar-nav li{
   text-indent: 20px;
   line-height: 40px;
@@ -94,13 +106,4 @@ p {
 
 .sidebar-nav li a:hover{
   background: #f30056;
-}
-.col-sm-3{
-  width: 40%;
-  height: 100%;
-}
-
-.navbar-default{
-  height: 100%;
-  background-color: #ffffff;
 }
