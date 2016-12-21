@@ -59,9 +59,13 @@ p {
 }
 
 /*sidebar styling*/
+.navbar-default{
+  background-color: #ffffff;
+}
 .sidebar-nav{
   padding: 0;
   list-style: none;
+  background-color: #ffffff;
 }
 
 .sidebar-nav li{
