@@ -48,6 +48,12 @@ p {
   width: 80%;
 }
 
+.my-navbar{
+  background: white;
+  border-radius: 0;
+  border: 0;
+}
+
 .navbar-default{
   background-color: #ffffff;
   height: 100%;
