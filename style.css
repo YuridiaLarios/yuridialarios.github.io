@@ -48,30 +48,14 @@ p {
   width: 80%;
 }
 
-#sidebar-wrapper{
-  z-index: 1;
-  position: absolute;
-  width: 0;
-  height: auto;
-  overflow-y: hidden;
-  background: #f116db;
-  boder: 2px solid red;
-}
-
-#page-content-wrapper{
-  width: 100%;
-  position: absolute;
-  padding: 15px;
-  border: 5px solid green;
-}
 
 /*change the width of the sidebar  to display it*/
 .menuDisplayed #sidebar-wrapper{
-  width:250px;
+  width:550px;
 }
 
 .menuDisplayed #sidebar-wrapper{
-  padding-left: 250px;
+  padding-left: 550px;
 }
 
 /*sidebar styling*/
@@ -95,14 +79,13 @@ p {
 .sidebar-nav li a:hover{
   background: #f30056;
 }
+
 .col-sm-3{
   width: 40%;
   height: 100%;
   background-color: #ffffff;
-
 }
 
-.navbar-default{
-  height: 100%;
-  background-color: #ffffff;
+.col-sm-9, .col-lg-10{
+  background-color: red;
 }
