@@ -5,35 +5,62 @@
   <head>
     <meta charset="utf-8">
     <title> Yuridia - mi mundo - my world</title>
-
     <!-- linking css -->
     <link rel="stylesheet" type="text/css" href="style.css">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!--bootstrap for mobile friendly, To ensure proper rendering and touch zooming -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--Jquery enable-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
 
 
-<!-- create two columns -->
-<div id="container">
-
-  <!-- Left column -->
-  <div id="left">
-
-    <header>
-      <img class="thumbnail-logo" src="http://i.imgur.com/lItWODS.png" alt="Yuridia Larios Logo" />
-      <img class="thumbnail-picture" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/999878_10200299394461309_1140653058_n.jpg?oh=3312f70cb5e54b4cc16a9e44a6c4a4af&oe=58A3BF25" alt="Yuridia's face picture" />
-      <h3> Aspiring Software Engineer</h3>
-
-    </header>
-
     <body>
-      <div id="right">
+      <div id="wrapper">
+        <!--sidebar-->
+        <div id="sidebar-wrapper">
+          <img class="thumbnail-logo" src="http://i.imgur.com/lItWODS.png" alt="Yuridia Larios Logo" />
+          <img class="thumbnail-picture" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/999878_10200299394461309_1140653058_n.jpg?oh=3312f70cb5e54b4cc16a9e44a6c4a4af&oe=58A3BF25" alt="Yuridia's face picture" />
+          <h3> Aspiring Software Engineer</h3>
+          <ul class="sidebar-nav">
+            <li><a href='#'>About</a></li>
+            <li><a href='#'>Blog</a></li>
+            <li><a href='#'>Design</a></li>
+            <li><a href='#'>Time Machine</a><li>
+          </ul>
+        </div>
+
+        <!--Page content-->
+        <div id="page-content-wrapper">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12">
+                <a href="#"class="btn btn-success" id="menu-toggle">Toggle Menu </a>
+                <h1>Sidebar Layouts are cool </h1>
+                <p> yuridia Lizbeth Larios Aispuro y Daniel Pena.
+                  yuridia Lizbeth Larios Aispuro y Daniel Pena.
+                  yuridia Lizbeth Larios Aispuro y Daniel Pena.
+                  yuridia Lizbeth Larios Aispuro y Daniel Pena.
+                  yuridia Lizbeth Larios Aispuro y Daniel Pena.
+                  yuridia Lizbeth Larios Aispuro y Daniel Pena.
+                  yuridia Lizbeth Larios Aispuro y Daniel Pena.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+
+      <!-- Menu toggle script -->
+      <script>
+        $("#menu-toggle").click( function (e){
+          e.preventDefault();
+          $("#wrapper").toggleClass("toggled");
+
+        });
+
     </body>
-  </div>
+
 
   </html>
