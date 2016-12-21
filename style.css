@@ -10,13 +10,30 @@ body {
     overflow-x: hidden;
 }
 
+
+.thumbnail-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 100%;
+  box-shadow: 40px 43px 96px -30px rgba(0, 0, 0, 0.75);
+}
+
+.thumbnail-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
 nav {
     position: fixed;
     z-index: 1000;
     top: 0;
     bottom: 0;
     width: 200px;
-    background-color: #036;
+    background-color: white;
     transform: translate3d(-200px, 0, 0);
     transition: transform 0.4s ease;
 }
