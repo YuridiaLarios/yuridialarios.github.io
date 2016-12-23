@@ -46,7 +46,7 @@ h3{
 }
 
 .jumbotron-timeline{
-  background-color: #f30056;
+  background-color: #f0eef0;
   min-height: 200px;
   margin-top:0px;
   margin-bottom: 0px;
@@ -156,16 +156,16 @@ nav ul li a:hover{
   border-radius:1%;
   background-color: #ffbbbd;
   margin:10px;
-  padding:10px;
-  border: 1px solid #bcf2ff;
+  padding:20px;
+
 
 }
 .items-blue{
   border-radius:1%;
   background-color: #bae5ff;
   margin:10px;
-  padding:10px;
-  border: 1px solid #bcf2ff;
+  padding:20px;
+
 
 }
 
@@ -173,8 +173,8 @@ nav ul li a:hover{
   border-radius:1%;
   background-color: #e9cbf4;
   margin:10px;
-  padding:10px;
-  border: 1px solid #bcf2ff;
+  padding:20px;
+
 
 }
 
@@ -183,8 +183,8 @@ nav ul li a:hover{
   border-radius:1%;
   background-color: #fff2cd;
   margin:10px;
-  padding:10px;
-  border: 1px solid #bcf2ff;
+  padding:20px;
+
 
 }
 
@@ -192,8 +192,8 @@ nav ul li a:hover{
   border-radius:1%;
   background-color: #e5f9dc;
   margin:10px;
-  padding:10px;
-  border: 1px solid #bcf2ff;
+  padding:20px;
+
 
 }
 
