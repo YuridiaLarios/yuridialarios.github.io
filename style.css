@@ -136,6 +136,13 @@ nav ul li a:hover{
 }
 
 
+.title{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+
+}
+
 .left{
   border-right: 3px solid black;
 
@@ -147,6 +154,7 @@ nav ul li a:hover{
 }
 
 .items{
+  border-radius:10%;
   background-color: cyan;
   margin:10px;
   padding:10px;
