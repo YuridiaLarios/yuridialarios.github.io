@@ -225,6 +225,7 @@ nav ul li a:hover{
 
 .pointing-right-arrow{
   margin-left: 112.57%;
+  display: inline;
 }
 
 .item-picture{
