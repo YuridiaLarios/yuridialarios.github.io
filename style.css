@@ -160,10 +160,31 @@ nav ul li a:hover{
   border: 1px solid #bcf2ff;
 
 }
-.items-title{
+.items-title-red{
   margin-top: -10px;
   background-color:#cf0000;
 }
+
+.items-title-blue{
+  margin-top: -10px;
+  background-color:#0069c2;
+}
+
+.items-title-purple{
+  margin-top: -10px;
+  background-color:#7d009f;
+}
+
+.items-title-yellow{
+  margin-top: -10px;
+  background-color:#ffc100;
+}
+
+.items-title-green{
+  margin-top: -10px;
+  background-color:#7bda4f;
+}
+
 .item-picture{
   width: 100%;
   height: auto;
