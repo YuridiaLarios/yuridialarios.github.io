@@ -47,7 +47,7 @@ h3{
 }
 
 .jumbotron3{
-
+  background-image: url('http://i.imgur.com/q9krggw.jpg');
   background-attachment: fixed;
   min-height: 200px;
   margin-top:0px;
@@ -82,7 +82,6 @@ h3{
 .content {
     padding-top: 0px;
     height: auto;
-    background-image: url('http://i.imgur.com/q9krggw.jpg');
     text-align: center;
     transition: transform 0.4s ease;
 }
