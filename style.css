@@ -154,13 +154,15 @@ nav ul li a:hover{
 
 .items{
   border-radius:1%;
-  background-color: white;
+  background-color: #ffbbbd;
   margin:10px;
   padding:10px;
   border: 1px solid #bcf2ff;
 
 }
-
+.items-title{
+  background-color:#cf0000;
+}
 .item-picture{
   width: 100%;
   height: auto;
