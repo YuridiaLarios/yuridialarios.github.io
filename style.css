@@ -46,7 +46,8 @@ h3{
 }
 
 .jumbotron-timeline{
-  background-color: #bcf2ff;
+  background-image:url('http://i.imgur.com/s4SpTMD.jpg');
+  position: fixed;
   min-height: 200px;
   margin-top:0px;
   margin-bottom: 0px;
