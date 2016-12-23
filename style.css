@@ -155,12 +155,13 @@ nav ul li a:hover{
 .items{
   border-radius:1%;
   background-color: #ffbbbd;
-
+  margin:10px;
+  padding:10px;
   border: 1px solid #bcf2ff;
 
 }
 .items-title{
-  padding: -10px;
+  margin-top: -10px;
   background-color:#cf0000;
 }
 .item-picture{
