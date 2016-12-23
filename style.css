@@ -152,7 +152,7 @@ nav ul li a:hover{
   margin-left: -3px;
 }
 
-.items{
+.items-red{
   border-radius:1%;
   background-color: #ffbbbd;
   margin:10px;
@@ -160,6 +160,44 @@ nav ul li a:hover{
   border: 1px solid #bcf2ff;
 
 }
+.items-blue{
+  border-radius:1%;
+  background-color: #bae5ff;
+  margin:10px;
+  padding:10px;
+  border: 1px solid #bcf2ff;
+
+}
+
+.items-purple{
+  border-radius:1%;
+  background-color: #e9cbf4;
+  margin:10px;
+  padding:10px;
+  border: 1px solid #bcf2ff;
+
+}
+
+
+.items-yellow{
+  border-radius:1%;
+  background-color: #fff2cd;
+  margin:10px;
+  padding:10px;
+  border: 1px solid #bcf2ff;
+
+}
+
+.items-green{
+  border-radius:1%;
+  background-color: #e5f9dc;
+  margin:10px;
+  padding:10px;
+  border: 1px solid #bcf2ff;
+
+}
+
+
 .items-title-red{
   margin-top: -10px;
   background-color:#cf0000;
