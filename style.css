@@ -224,7 +224,7 @@ nav ul li a:hover{
 }
 
 .pointing-right-arrow{
-  position: right;
+  margin-left: 50%;
 }
 
 .item-picture{
