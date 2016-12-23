@@ -28,11 +28,17 @@ h3{
 
 .jumbotron2{
   background-image:url('http://i.imgur.com/3jKlQhQ.jpg');
+  background-attachment:fixed;
+  background-size: cover;
   min-height: 697px;
   widht:auto;
   margin-top:-30px;
   margin-bottom: 0px;
   padding:0;
+}
+
+.info{
+  text-align: center;
 }
 
 .jumbotron3{
