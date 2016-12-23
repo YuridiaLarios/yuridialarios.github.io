@@ -223,6 +223,10 @@ nav ul li a:hover{
   background-color:#7bda4f;
 }
 
+.pointing-right-arrow{
+  position: center;
+}
+
 .item-picture{
   width: 100%;
   height: auto;
