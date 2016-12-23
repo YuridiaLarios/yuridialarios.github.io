@@ -46,8 +46,7 @@ h3{
 }
 
 .jumbotron-timeline{
-  background-image:url('http://i.imgur.com/s4SpTMD.jpg');
-  position: fixed;
+  background-color: #f30056;
   min-height: 200px;
   margin-top:0px;
   margin-bottom: 0px;
@@ -126,7 +125,7 @@ nav ul li a:hover{
 
 .content {
     padding-top: 0px;
-    height: 2000px;
+    height: auto;
     background-image: url('http://i.imgur.com/q9krggw.jpg');
     text-align: center;
     transition: transform 0.4s ease;
