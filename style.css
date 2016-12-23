@@ -155,16 +155,16 @@ nav ul li a:hover{
 .items-red{
   border-radius:1%;
   background-color: #ffbbbd;
-  margin:10px;
-  padding:20px;
+  margin:50px;
+  padding:50px;
 
 
 }
 .items-blue{
   border-radius:1%;
   background-color: #bae5ff;
-  margin:10px;
-  padding:20px;
+  margin:50px;
+  padding:50px;
 
 
 }
@@ -172,8 +172,8 @@ nav ul li a:hover{
 .items-purple{
   border-radius:1%;
   background-color: #e9cbf4;
-  margin:10px;
-  padding:20px;
+  margin:50px;
+  padding:50px;
 
 
 }
@@ -182,8 +182,8 @@ nav ul li a:hover{
 .items-yellow{
   border-radius:1%;
   background-color: #fff2cd;
-  margin:10px;
-  padding:20px;
+  margin:50px;
+  padding:50px;
 
 
 }
@@ -191,8 +191,8 @@ nav ul li a:hover{
 .items-green{
   border-radius:1%;
   background-color: #e5f9dc;
-  margin:10px;
-  padding:20px;
+  margin:50px;
+  padding:50px;
 
 
 }
