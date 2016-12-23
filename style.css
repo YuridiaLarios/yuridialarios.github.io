@@ -161,6 +161,7 @@ nav ul li a:hover{
 
 }
 .items-title{
+  padding: -10px;
   background-color:#cf0000;
 }
 .item-picture{
