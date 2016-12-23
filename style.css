@@ -46,9 +46,8 @@ h3{
   color: black;
 }
 
-.jumbotron3{
+.jumbotron-projects{
   background-image: url('http://i.imgur.com/q9krggw.jpg');
-  background-attachment: fixed;
   min-height: 200px;
   margin-top:0px;
   margin-bottom: 0px;
