@@ -45,8 +45,8 @@ h3{
   padding:0;
 }
 
-.jumbotron4{
-
+.jumbotron-timeline{
+  background-image:url('http://i.imgur.com/FkSHoT0.jpg');
   background-attachment: fixed;
   min-height: 200px;
   margin-top:0px;
@@ -155,7 +155,7 @@ nav ul li a:hover{
 
 .items{
   border-radius:10%;
-  background-color: cyan;
+  background-color: white;
   margin:10px;
   padding:10px;
   border: 1px solid black;
