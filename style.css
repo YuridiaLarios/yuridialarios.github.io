@@ -134,3 +134,22 @@ nav ul li a:hover{
 .active-nav .content {
     transform: translate3d(150px, 0, 0);
 }
+
+
+.left{
+  border-right: 3px solid black;
+
+}
+
+.right{
+  border-left: 3px solid black;
+  margin-left: -3px;
+}
+
+.items{
+  background-color: cyan;
+  margin:10px;
+  padding:10px;
+  border: 1px solid black;
+
+}
