@@ -37,12 +37,12 @@ h3{
 }
 
 .jumbotron-projects{
-  background-image: url('http://i.imgur.com/q9krggw.jpg');
+  background-color: #f0eef0
   min-height: 600px;
-  margin-top:-30px;
+  margin-top:-3px;
   margin-bottom: -30px;
   width:100%;
-  padding-top:1px;
+  padding-top:20px;
   padding-bottom:0px;
   padding-left: 1px;
   padding-right:1px;
@@ -51,21 +51,23 @@ h3{
 #box1{
   height: 570px;
   width: 33.3%;
-  background-color: red;
+  background-color: #7bda4f;
+  border-radius: 40px;
   float: left;
 }
 
 #box2{
   height: 570px;
   width: 33.3%;
-  background-color: blue;
+  background-color: #0069c2;
   float: left;
 }
 
 #box3{
   height: 570px;
   width: 33.3%;
-  background-color: yellow;
+  background-color: #da0057;
+  border-radius: 40px;
   float: left;
 }
 
