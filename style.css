@@ -42,28 +42,28 @@ h3{
   margin-top:-30px;
   margin-bottom: -30px;
   width:100%;
-  padding-top:0;
+  padding-top:1px;
   padding-bottom:0px;
-  padding-left: 10px;
-  padding-right:10px;
+  padding-left: 1px;
+  padding-right:1px;
 }
 
 #box1{
-  height: 600px;
+  height: 570px;
   width: 33.3%;
   background-color: red;
   float: left;
 }
 
 #box2{
-  height: 600px;
+  height: 570px;
   width: 33.3%;
   background-color: blue;
   float: left;
 }
 
 #box3{
-  height: 600px;
+  height: 570px;
   width: 33.3%;
   background-color: yellow;
   float: left;
