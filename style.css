@@ -37,7 +37,7 @@ h3{
 }
 
 .jumbotron-projects{
-  background-color: #f0eef0
+  background-color: #f0eef0;
   min-height: 600px;
   margin-top:-3px;
   margin-bottom: -30px;
@@ -51,7 +51,7 @@ h3{
 #box1{
   height: 570px;
   width: 33.3%;
-  background-color: #7bda4f;
+  background-color: #da0057;
   border-radius: 40px;
   float: left;
 }
@@ -59,14 +59,14 @@ h3{
 #box2{
   height: 570px;
   width: 33.3%;
-  background-color: #0069c2;
+  background-color: #7bda4f;
   float: left;
 }
 
 #box3{
   height: 570px;
   width: 33.3%;
-  background-color: #da0057;
+  background-color: #0069c2;
   border-radius: 40px;
   float: left;
 }
