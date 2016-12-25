@@ -16,18 +16,7 @@ h3{
 }
 
 
-.jumbotron{
-
-  background-attachment: fixed;
-  min-height: 128px;
-  margin-top:0px;
-  margin-bottom:0px;
-  width:100%;
-  padding:0;
-}
-
-
-.jumbotron2{
+.mainJumbotron{
   background-image:url('http://i.imgur.com/0C2hC1b.jpg');
   min-height: 697px;
   widht:auto;
@@ -49,7 +38,7 @@ h3{
 
 .jumbotron-projects{
   background-image: url('http://i.imgur.com/q9krggw.jpg');
-  min-height: 200px;
+  min-height: 600px;
   margin-top:0px;
   margin-bottom: 0px;
   width:100%;
