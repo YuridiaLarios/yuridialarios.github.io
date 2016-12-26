@@ -41,7 +41,7 @@ h3{
 
 .jumbotron-projects{
   background-color: #f0eef0;
-  min-height: 900px;
+  height: 1100px;
   margin-top:-3px;
   margin-bottom: -30px;
   width:100%;
@@ -79,7 +79,7 @@ h3{
 
 .jumbotron-timeline{
   background-color: #f0eef0;
-  min-height: 200px;
+  height: 200px;
   margin-top:0px;
   margin-bottom: 0px;
   width:100%;
@@ -213,7 +213,7 @@ h3{
   width: 83%;
   height: auto;
   text-align: center;
-  margin-left: 4%;
+  margin-left: 8%;
 }
 
 .logoProjects img{
