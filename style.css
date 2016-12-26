@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #f0eef0;
 }
 
 body {
@@ -106,6 +105,7 @@ h3{
     height: auto;
     text-align: center;
     transition: transform 0.4s ease;
+    background-color: #f0eef0;
 }
 
 
