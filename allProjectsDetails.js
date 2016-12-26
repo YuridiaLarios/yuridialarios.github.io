@@ -95,7 +95,7 @@ function logoRecords(data)
                                             project_info += `<div class="column">`;
                                                 project_info += `<div class="col-1-1"a>`;
                                                 if (project_picture) {
-                                                    project_info += `<div class="thumbnail">`;
+                                                    project_info += `<div class="thumbnail-logos">`;
 
 
                                                 $.each(project_picture, function(i, pic){
