@@ -41,7 +41,7 @@ function renderOneProject(project) {
 
 
           if(project_date){
-          project_info += `Date of completition: ${project_date} <br> `;
+          project_info += `Date of completion: ${project_date} <br> `;
           }
 
           if(project_description){
