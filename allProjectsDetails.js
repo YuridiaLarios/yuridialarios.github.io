@@ -40,7 +40,7 @@ $.get(all_project_records, wordpressRecords);
 
 
 
-// all wordpress projects
+// all coded projects
 function codedRecords(data)
 {
     $(data.records).each(function(index, project)
@@ -76,3 +76,44 @@ function codedRecords(data)
 
 
 $.get(all_project_records, codedRecords);
+
+
+
+
+
+// all logo projects
+function logoRecords(data)
+{
+    $(data.records).each(function(index, project)
+                         {
+                           var project_name = project.fields['Name']
+                           var project_picture = project.fields['Photos']
+                           var logo_check = project.fields['Logo']
+
+                           var project_info = ''
+                           if (project_name && logo_check) {
+                                            project_info += `<div class="column">`;
+                                                project_info += `<div class="col-sm-6 col-md-4">`;
+                                                if (project_picture) {
+                                                    project_info += `<div class="thumbnail">`;
+
+
+                                                $.each(project_picture, function(i, pic){
+                                                    project_info +=`<a href="projectDetail.html?projectID=${project.id}"><img src="${pic.url}"></a>`;
+
+                         });
+
+                        }
+
+                         project_info += `</div>`;
+                         project_info += `<div class="caption">${project_name} </div>`;
+                         project_info += `</div>`;
+                         project_info += `</div>`;
+
+                         }
+      $('.logoProjects').append(project_info);
+                       });
+}
+
+
+$.get(all_project_records, logoRecords);
