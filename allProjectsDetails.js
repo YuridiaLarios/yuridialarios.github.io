@@ -29,8 +29,8 @@ function wordpressRecords(data)
 
                          project_info += `</div>`;
                          project_info += `<div class="caption">${project_name} </div>`;
-                         curriculum_info += `</div>`;
-                         curriculum_info += `</div>`;
+                         project_info += `</div>`;
+                         project_info += `</div>`;
 
                          }
       $('.wordpressProjects').append(project_info);
