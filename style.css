@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: #f0eef0;
 }
 
 body {
@@ -79,8 +80,8 @@ h3{
 
 .jumbotron-timeline{
   background-color: #f0eef0;
-  height: 200px;
-  margin-top:0px;
+  height: 100%;
+  margin-top:100px;
   margin-bottom: 0px;
   width:100%;
   padding:0;
