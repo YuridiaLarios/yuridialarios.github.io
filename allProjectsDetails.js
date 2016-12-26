@@ -29,7 +29,7 @@ function wordpressRecords(data)
                         }
 
                          project_info += `</div>`;
-                         project_info += `<div class="caption">${project_name} <br> ${project_date} <br> ${project_description} <br> ${project_link} </div>`;
+                         project_info += `<div class="caption">${project_name}  </div>`;
                          project_info += `</div>`;
                          project_info += `</div>`;
 
@@ -71,7 +71,7 @@ function codedRecords(data)
                         }
 
                          project_info += `</div>`;
-                         project_info += `<div class="caption">${project_name} <br> ${project_date} <br> ${project_description} <br> ${project_link} </div>`;
+                         project_info += `<div class="caption">${project_name} </div>`;
                          project_info += `</div>`;
                          project_info += `</div>`;
 
@@ -115,7 +115,7 @@ function logoRecords(data)
                         }
 
                          project_info += `</div>`;
-                         project_info += `<div class="caption">${project_name} <br> ${project_date} <br> ${project_description} `;
+                         project_info += `<div class="caption">${project_name}</div>`;
                          project_info += `</div>`;
                          project_info += `</div>`;
 
