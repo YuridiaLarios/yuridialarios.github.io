@@ -9,6 +9,9 @@ function wordpressRecords(data)
                            var project_name = project.fields['Name']
                            var project_picture = project.fields['Photos']
                            var wordpress_check = project.fields['Wordpress']
+                           var project_link = project.fields['link']
+                           var project_date = project.fields['date']
+                           var project_description = project.fields['Description']
 
                            var project_info = ''
                            if (project_name && wordpress_check) {
@@ -26,7 +29,7 @@ function wordpressRecords(data)
                         }
 
                          project_info += `</div>`;
-                         project_info += `<div class="caption">${project_name} </div>`;
+                         project_info += `<div class="caption">${project_name} <br> ${project_date} <br> ${project_description} <br> ${project_link} </div>`;
                          project_info += `</div>`;
                          project_info += `</div>`;
 
@@ -48,6 +51,9 @@ function codedRecords(data)
                            var project_name = project.fields['Name']
                            var project_picture = project.fields['Photos']
                            var coded_check = project.fields['Coded']
+                           var project_link = project.fields['link']
+                           var project_date = project.fields['date']
+                           var project_description = project.fields['Description']
 
                            var project_info = ''
                            if (project_name && coded_check) {
@@ -65,7 +71,7 @@ function codedRecords(data)
                         }
 
                          project_info += `</div>`;
-                         project_info += `<div class="caption">${project_name} </div>`;
+                         project_info += `<div class="caption">${project_name} <br> ${project_date} <br> ${project_description} <br> ${project_link} </div>`;
                          project_info += `</div>`;
                          project_info += `</div>`;
 
@@ -89,6 +95,9 @@ function logoRecords(data)
                            var project_name = project.fields['Name']
                            var project_picture = project.fields['Photos']
                            var logo_check = project.fields['Logo']
+                           var project_link = project.fields['link']
+                           var project_date = project.fields['date']
+                           var project_description = project.fields['Description']
 
                            var project_info = ''
                            if (project_name && logo_check) {
@@ -106,7 +115,7 @@ function logoRecords(data)
                         }
 
                          project_info += `</div>`;
-                         project_info += `<div class="caption">${project_name} </div>`;
+                         project_info += `<div class="caption">${project_name} <br> ${project_date} <br> ${project_description} `;
                          project_info += `</div>`;
                          project_info += `</div>`;
 
