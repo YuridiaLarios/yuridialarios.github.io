@@ -52,7 +52,7 @@ function codedRecords(data)
                            var project_info = ''
                            if (project_name && coded_check) {
                                             project_info += `<div class="column">`;
-                                                project_info += `<div class="col-sm-6 col-md-4">`;
+                                                project_info += `<div class="col-1-1">`;
                                                 if (project_picture) {
                                                     project_info += `<div class="thumbnail">`;
 
@@ -93,7 +93,7 @@ function logoRecords(data)
                            var project_info = ''
                            if (project_name && logo_check) {
                                             project_info += `<div class="column">`;
-                                                project_info += `<div class="col-sm-6 col-md-4">`;
+                                                project_info += `<div class="col-1-1">`;
                                                 if (project_picture) {
                                                     project_info += `<div class="thumbnail">`;
 
