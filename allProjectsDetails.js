@@ -1,11 +1,11 @@
 /*global $*/
-var api_key = 'keyQO62FoqRTWrrGK';
-var all_project_records = 'https://api.airtable.com/v0/appUun0GAPq3O4DNe/Art%20Pieces?api_key=' + api_key;
+var api_key= 'keyx8KoDimBmlkxCL';
+var all_project_records= 'https://api.airtable.com/v0/appUun0GAPq3O4DNe/Art%20Pieces?api_key=' + api_key;
 
 
 
-// all teachers details
-function allWordpressProjectsRecords(data)
+// wordpress projects
+function allWordpressProjects(data)
 {
     $(data.records).each(function(index, project)
                          {
@@ -20,7 +20,7 @@ function allWordpressProjectsRecords(data)
                            var project_info = ''
                            if (project_name && wordpressCheckmark) {
                                             project_info += `<div class="column">`;
-                                                project_info += `<div class="col-sm-4 col-sm-4">`;
+                                                project_info += `<div class="col-sm-6 col-md-4">`;
                                                 if (project_photo) {
                                                     project_info += `<div class="thumbnail">`;
                                                 $.each(project_info, function(i, pic){
@@ -34,9 +34,11 @@ function allWordpressProjectsRecords(data)
                          project_info += `</div>`;
                          project_info += `</div>`;
 
+
+
                          }
       $('.wordpressProjects').append(project_info);
                        });
 }
 
-$.get(all_project_records, allWordpressProjectsRecords);
+$.get(all_project_records, allWordpressProjects);
