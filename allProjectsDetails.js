@@ -17,9 +17,7 @@ function wordpressRecords(data)
                                                 if (project_picture) {
                                                     project_info += `<div class="thumbnail">`;
 
-                                                $.each(project_picture, function(i,pic){
-                                                    project_info += `<img src = "${pic.url}"`;
-                                                });
+                                  
                                                 $.each(project_picture, function(i, pic){
                                                     project_info +=`<a href="projectDetail.html?projectID=${project.id}"><img src="${pic.url}"></a>`;
 
