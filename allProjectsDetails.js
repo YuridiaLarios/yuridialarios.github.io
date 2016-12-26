@@ -13,7 +13,7 @@ function wordpressRecords(data)
                            var project_info = ''
                            if (project_name && wordpress_check) {
                                             project_info += `<div class="column">`;
-                                                project_info += `<div class="col-sm-6 col-md-4">`;
+                                                project_info += `<div class="col-1-1">`;
                                                 if (project_picture) {
                                                     project_info += `<div class="thumbnail">`;
 
