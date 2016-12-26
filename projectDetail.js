@@ -14,7 +14,7 @@ $.urlParam = function(name){
 /*global api_key*/
 var url_one_project = function() {
   var url_id = $.urlParam('projectID');
-  return 'https://api.airtable.com/v0/appUun0GAPq3O4DNe/Art%20Pieces?/' + url_id +'?api_key=' + api_key;
+  return 'https://api.airtable.com/v0/appUun0GAPq3O4DNe/Art%20Pieces/' + url_id +'?api_key=' + api_key;
 }
 
 
@@ -57,7 +57,7 @@ function renderOneProject(project) {
                         <br>`;
           }
       }
-      $('.project-detail').append(student_info);
+      $('.project-detail').append(project_info);
 }
 
 if ($.urlParam('projectID')) {
