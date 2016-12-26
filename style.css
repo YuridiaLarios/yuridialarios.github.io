@@ -20,6 +20,7 @@ h3{
   background-image:url('http://i.imgur.com/0C2hC1b.jpg');
   background-repeat: no-repeat;
   background-size: contain;
+  background-color: #f0eef0;
   min-height: 697px;
   widht:auto;
   margin-top:-30px;
@@ -209,7 +210,7 @@ h3{
 }
 
 .thumbnail{
-  width: 93%;
+  width: 83%;
   height: auto;
   text-align: center;
   margin-left: 4%;
@@ -222,10 +223,10 @@ h3{
 }
 
 .caption{
-  font-size: 14px;
+  font-size: 18px;
   font-weight:bolder;
   text-align: center;
-  padding-top: -5px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 40px;
 
 }
