@@ -1,0 +1,60 @@
+
+.student-detail img{
+  width: 40%;
+  height: auto;
+  border-radius: 10%;
+  box-shadow: 10px 17px 91px -25px rgb(25, 25, 112);
+}
+
+
+.studentsContainer{
+  background-color: #ffffff;  /* white color */
+  border-width: 5px;
+  border-radius: 2%;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+
+
+body{
+  background-color:  #0099ff;
+}
+
+h2 {
+  padding-top: 100px;
+  padding-bottom: 15px;
+  color: #191970;
+  font-weight: bold;
+  text-align: center;
+  font-size: 52px;
+}
+
+h4{
+  font-weight: bold;
+  font-size: 32px;
+
+}
+
+.button_HOME1_BACK2 a{
+    font-weight: bold;
+}
+
+.menu_TOP-BUTTONS{
+  text-align: right;
+  margin-right: 20px;
+}
+
+
+.glyphicon {
+    font-size: 3em;
+    color:#1D3E5A;
+
+
+}
+
+.glyphicon:hover{
+    color:#0099ff;
+}
