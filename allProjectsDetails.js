@@ -93,7 +93,7 @@ function logoRecords(data)
                            var project_info = ''
                            if (project_name && logo_check) {
                                             project_info += `<div class="column">`;
-                                                project_info += `<div class="col-1-1">`;
+                                                project_info += `<div class="col-1-1"a>`;
                                                 if (project_picture) {
                                                     project_info += `<div class="thumbnail">`;
 
