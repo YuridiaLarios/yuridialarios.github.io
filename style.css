@@ -61,8 +61,8 @@ h3{
   width: 33.3%;
   background-color: #7bda4f;
   border-radius: 40px;
-  padding-left: 1px;
-  padding-right: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
   float: left;
 }
 
