@@ -18,7 +18,7 @@ h3{
 
 .mainJumbotron{
   background-image:url('http://i.imgur.com/0C2hC1b.jpg');
-  background-size: contain;
+  background-size: cover;
   min-height: 697px;
   widht:auto;
   margin-top:-30px;
