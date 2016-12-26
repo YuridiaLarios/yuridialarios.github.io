@@ -24,15 +24,15 @@ function allWordpressProjectsRecords(data)
                                                 if (project_photo) {
                                                     project_info += `<div class="thumbnail">`;
                                                 $.each(project_info, function(i, pic){
-                                                    project_info +=`<a href="projectDetail.html?studentID=${student.id}"><img src="${pic.url}"></a>`;
+                                                    project_info +=`<a href="projectDetail.html?studentID=${project.id}"><img src="${pic.url}"></a>`;
 
                          });
                         }
 
                          project_info += `</div>`;
                          project_info += `<div class="caption">${project_name} <br> ${project_link}</div>`;
-                         pro_info += `</div>`;
-                         pro_info += `</div>`;
+                         project_info += `</div>`;
+                         project_info += `</div>`;
 
                          }
       $('.wordpressProjects').append(project_info);
