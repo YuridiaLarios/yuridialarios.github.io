@@ -65,3 +65,7 @@ nav ul li a:hover{
 .active-nav .content {
     transform: translate3d(150px, 0, 0);
 }
+
+.profile_buttons{
+  margin-top: 25%;
+}
