@@ -211,6 +211,11 @@ h3{
   display: inline;
 }
 
+.pointing-left-arrow{
+  margin-right: 192.57%;
+  display: inline;
+}
+
 .item-picture{
   width: 100%;
   height: auto;
@@ -235,5 +240,27 @@ h3{
   text-align: center;
   padding-top: 0px;
   padding-bottom: 40px;
+
+}
+
+
+.jumbotron-contactMe{
+  background-color: #0099ff;
+  height: 100%;
+  margin-top:100px;
+  margin-bottom: 0px;
+  width:100%;
+  padding:0;
+}
+
+.thumbnail-yuri{
+  font-weight: bolder;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-radius: 100%;
+  box-shadow: 40px 43px 96px -30px rgba(0, 0, 0, 0.75);
 
 }
