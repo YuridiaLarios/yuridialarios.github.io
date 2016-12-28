@@ -92,6 +92,10 @@ h3{
   padding:0;
 }
 
+.jumbotron-timeline h1 {
+  padding-bottom: 0px;
+}
+
 
 
 .thumbnail-picture {
@@ -116,11 +120,17 @@ h3{
 
 
 
-.title{
-  font-size: 100px;
-  color: white;
+.journey-info{
+  font-size: 20px;
+  color: black;
   text-align: center;
+  padding-bottom: 30px;
 
+}
+.story-text{
+  padding-top: 7%;
+  text-align: left
+  font-size: 20px;
 }
 
 
@@ -146,48 +156,51 @@ h3{
 }
 
 
-
 .items-red{
+  font-size: 20px;
   border-radius:1%;
   background-color: #ffbbbd;
   margin:50px;
-  padding:50px;
+  padding:3%;
 
 
 }
 .items-blue{
+  font-size: 20px;
   border-radius:1%;
   background-color: #bae5ff;
   margin:50px;
-  padding:50px;
+  padding:3%;
 
 
 }
 
 .items-purple{
+  font-size: 20px;
   border-radius:1%;
   background-color: #e9cbf4;
   margin:50px;
-  padding:50px;
+  padding:3%;
 
 
 }
 
 
 .items-yellow{
+  font-size: 20px;
   border-radius:1%;
   background-color: #fff2cd;
   margin:50px;
-  padding:50px;
+  padding:3%;
 
 
 }
-
 .items-green{
+  font-size: 20px;
   border-radius:1%;
   background-color: #e5f9dc;
   margin:50px;
-  padding:50px;
+  padding:3%;
 
 
 }
@@ -196,37 +209,44 @@ h3{
 .items-title-red{
   margin-top: -10px;
   background-color:#cf0000;
+  padding-bottom:1%;
 }
 
 .items-title-blue{
   margin-top: -10px;
   background-color:#0069c2;
+  padding-bottom:1%;
 }
 
 .items-title-purple{
   margin-top: -10px;
   background-color:#7d009f;
+  padding-botton: 2%;
 }
 
 .items-title-yellow{
   margin-top: -10px;
   background-color:#ffc100;
+  padding-bottom: 1%;
 }
 
 .items-title-green{
   margin-top: -10px;
   background-color:#7bda4f;
+  padding-bottom: 1%;
 }
 
+
 .pointing-right-arrow{
-  margin-left: 112.57%;
+  margin-left: 103.57%;
   display: inline;
 }
 
 .pointing-left-arrow{
-  margin-left: -20.2%;
+  margin-left: -10%;
   display: block;
 }
+
 
 .item-picture{
   width: 100%;
