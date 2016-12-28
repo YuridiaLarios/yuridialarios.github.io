@@ -123,14 +123,33 @@ h3{
 
 }
 
+.circle{
+    background: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 55px solid black;
+  margin-left: 47.5%;
+  margin-right: auto;
+}
+
+
 .left{
-  border-right: 3px solid black;
+  border-right: 8px solid black;
 
 }
 
 .right{
-  border-left: 3px solid black;
-  margin-left: -3px;
+  border-left: 8px solid black;
+  margin-left: -8px;
 }
 
 
@@ -212,8 +231,8 @@ h3{
 }
 
 .pointing-left-arrow{
-  margin-right: 192.57%;
-  display: inline;
+  margin-left: -20.2%;
+  display: block;
 }
 
 .item-picture{
