@@ -1,0 +1,61 @@
+
+.curriculumMenuContainer{
+  background-color: #ffffff;  /* white color */
+  border-width: 5px;
+  border-radius: 2%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+
+.professorsContainer{
+  border-width: 5px;
+  border-radius: 2%;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+
+body{
+  background-color:  #001a33;;
+}
+
+h2 {
+  padding-top: 100px;
+  padding-bottom: 35px;
+  color: #191970;
+  font-weight: bold;
+  text-align: center;
+  font-size: 52px;
+}
+
+h4{
+  font-weight: bold;
+  font-size: 32px;
+
+}
+
+.button_HOME {
+  margin-right: 100px;
+  text-align: right;
+  font-weight: bold;
+
+}
+
+.button_curriculumMenu{
+    padding: 30px;
+}
+
+.glyphicon {
+    font-size: 3em;
+    color:#1D3E5A;
+
+
+}
+
+.glyphicon:hover{
+    color:#0099ff;
+}
