@@ -13,12 +13,14 @@ body {
 
 h1{
   font-weight: bolder;
-  padding-top: 20px;
-  padding-bottom: 33spx;
+  padding-top: 7%;
+  padding-bottom: 7%;
 }
 
 h3{
   text-align: center;
+  padding-top: -1%;
+
 }
 
 
@@ -29,31 +31,26 @@ h3{
   padding:0;
 }
 
-.info{
-  text-align: center;
-  padding-top: 200px;
-  margin: 10px 90% 10px 0;
-  font-size: 5rem;
-  letter-spacing: -1px;
-  font-weight: 700;
-  font-family: "Open Sans", sans-serif;
-  color: black;
-}
+
 
 .jumbotron-projects{
   background-color: #f0eef0;
-  height: 1200px;
-  margin-top:-3px;
-  margin-bottom: -30px;
+  margin-top:1%;
+  margin-bottom: 10%;
+  height: 100%;
   width:100%;
-  padding-top:20px;
-  padding-bottom:0px;
+  padding-top:2%;
+  padding-bottom:7%;
   padding-left: 1px;
   padding-right:1px;
 }
 
+.jumbotron-projects h1{
+  font-size: 2em;
+}
+
 #box1{
-  height: 100%;
+  height: 80%;
   width: 33.9%;
   background-color: #da0057;
   border-radius: 40px;
@@ -61,7 +58,7 @@ h3{
 }
 
 #box2{
-  height: 100%;
+  height: 80%;
   width: 32.9%;
   background-color: #7bda4f;
   border-radius: 40px;
@@ -71,7 +68,7 @@ h3{
 }
 
 #box3{
-  height: 100%;
+  height: 80%;
   width: 32.9%;
   background-color: #0069c2;
   border-radius: 40px;
@@ -80,8 +77,7 @@ h3{
 
 .jumbotron-timeline{
   background-color: #f0eef0;
-  height: 100%;
-  margin-top:100px;
+  margin-top:75%;
   margin-bottom: 0px;
   width:100%;
   padding:0;
