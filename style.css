@@ -23,13 +23,8 @@ h3{
 
 
 .mainJumbotron{
-  background-image:url('http://i.imgur.com/SELECdh.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: #f0eef0;
-  //min-height:697px;
   width:100%;
-  margin-top:-30px;
+  margin-top:-1%;
   margin-bottom: 0px;
   padding:0;
 }
