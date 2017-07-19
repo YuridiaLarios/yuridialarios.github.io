@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Titillium Web', sans-serif;
 }
 
 .profile-photo{
   display: block;
-  max-width: 180px;
+  max-width: 300px;
   margin: 0 auto 30px;
   border-radius: 100%;
 
@@ -49,8 +47,6 @@
   }
 }
 
-
-/* Some Cool Stuff */
 
 .demo-card:nth-child(1) {
   order: 1;
@@ -311,4 +307,50 @@ body {
 
 #timeline .purplebox .head::after {  /*purple arrow*/
   border-color: #7d009f;
+}
+/**********************************
+NAVIGATION
+***********************************/
+
+nav{
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 23px;
+  margin-bottom: -30px;
+  margin-left: 10%;
+  color: #f0eef0;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 1px;
+}
+
+nav li{
+  display: inline-block;
+  /*
+  Block-Level Elements - Block elements occupy the width of their containers and generally include a line break before and after the element.
+  Inline Elements - Inline elements occupy the width of their contents and do not begin a new line when formatted as text.
+  */
+
+}
+
+nav a{
+ text-align: center;
+ font-size: 2.2em;
+ font-weight:bold; /* google font property */
+ padding: 2px 40px;
+}
+
+
+
+nav a, nav a:visited { /*Pseudo-Class - Dynamic selectors that change based on user interaction with the browser, such as hovering/clicking over a link; here, .*/
+  color: black;
+}
+
+ nav a.selected, nav a:hover {
+ color: black;
+ text-shadow: .2px .2px .2px #000;
+ letter-spacing: 1.8px;
 }
