@@ -1,36 +1,4 @@
 /**********************************
-GENERAL
-***********************************/
-body{
-  font-family: 'Opens Sans', sans-serif;
-  background-color: #f0eef0;
-}
-
-
-#wrapper{
-  max-width: 100%;
-  margin: 0 auto;       /*centers "boxes" */
-  padding: 50px 0;
-
-}
-
-a{
-  text-decoration:none;
-  color: #6ab47b;
-}
-
-img {
-max-width:100%; /*fill the width of parent container*/
-}
-
-h3{
-  /* nice separation of titles in all pages */
-  margin: 0 0 1em 0;
-}
-
-
-
-/**********************************
 HEADING
 ***********************************/
 
@@ -112,6 +80,41 @@ nav a, nav a:visited { /*Pseudo-Class - Dynamic selectors that change based on u
  letter-spacing: 1.5px;
 
 }
+
+
+/**********************************
+GENERAL
+***********************************/
+body{
+  font-family: 'Opens Sans', sans-serif;
+  background-color: #f0eef0;
+}
+
+
+#wrapper{
+  max-width: 100%;
+  margin: 0 auto;       /*centers "boxes" */
+  padding: 50px 0;
+
+}
+
+a{
+  text-decoration:none;
+  color: #6ab47b;
+}
+
+img {
+max-width:100%; /*fill the width of parent container*/
+}
+
+h3{
+  /* nice separation of titles in all pages */
+  margin: 0 0 1em 0;
+}
+
+
+
+
 
 /**********************************
 PORTFOLIO
