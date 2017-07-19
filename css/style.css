@@ -1,0 +1,205 @@
+/**********************************
+GENERAL
+***********************************/
+body{
+  font-family: 'Opens Sans', sans-serif;
+  background-color: #f0eef0;
+}
+
+
+#wrapper{
+  max-width: 100%;
+  margin: 0 auto;       /*centers "boxes" */
+  padding: 50px 0;
+
+}
+
+a{
+  text-decoration:none;
+  color: #6ab47b;
+}
+
+img {
+max-width:100%; /*fill the width of parent container*/
+}
+
+h3{
+  /* nice separation of titles in all pages */
+  margin: 0 0 1em 0;
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header{
+ float: left;
+ margin: 0 0 30px 0;
+ padding: -5px 0 0 0; /*padding in the top without removing top margin*/
+ width: 100%;
+ border-color: #47ca0a;
+}
+
+#logo{
+  margin: 0;
+}
+
+h1{
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height:0.8em; /*space between lines*/
+}
+
+h2{
+  font-size: 0.75;
+  margin: -5px 0 0; /*-5 will make it to be closer to above element*/
+  font-weight: normal;
+}
+
+
+h1, h2 {
+  color:#fff;
+}
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav{
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 20px;
+  margin-bottom: -30px;
+  margin-left: 10%;
+  color: #f0eef0;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 1px;
+}
+
+nav li{
+  display: inline-block;
+  /*
+  Block-Level Elements - Block elements occupy the width of their containers and generally include a line break before and after the element.
+Inline Elements - Inline elements occupy the width of their contents and do not begin a new line when formatted as text.
+  */
+
+}
+
+nav a{
+ text-align: center;
+ font-size: 1em;
+ font-weight:bold; /* google font property */
+ padding: 2px 4px;
+}
+
+
+
+nav a, nav a:visited { /*Pseudo-Class - Dynamic selectors that change based on user interaction with the browser, such as hovering/clicking over a link; here, .*/
+  color: black;
+}
+
+ nav a.selected, nav a:hover {
+ color: black;
+ text-shadow: .2px .2px .2px #000;
+ letter-spacing: 1.5px;
+
+}
+
+/**********************************
+PORTFOLIO
+***********************************/
+
+.gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none; /*removes bullet points from li*/
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0; /*padding in the top without removing top margin*/
+  width: 100%;
+  border-color: #47ca0a;
+  border-radius: 1%;
+
+}
+
+
+.gallery li{
+  float: left; /*items appear side by side*/
+  width: 47%; /*width of li containers will be 45% */
+  margin: 1%;
+}
+
+.gallery li a p{
+ margin: 0;
+ padding: 4%;
+ text-align: center;
+ font-size: 1.1em;
+ font-weight: bold;
+ color: #000;
+
+}
+
+.coding-projects{
+  background: #7bda4f;
+}
+.wordpress-projects{
+  background: #da0057;
+
+}
+.logos-projects{
+  margin:2px;
+  background: #0069c2;
+}
+
+.logos-projects li{
+  float: left; /*items appear side by side*/
+  width: 30%; /*width of li containers will be 45% */
+  margin: 1.5%;
+}
+
+.logos-projects li a p{
+ margin: 0;
+ padding: 3%;
+ text-align: center;
+ font-size: 1.1em;
+ font-weight: bold;
+ color: #000;
+}
+
+.gallery img{
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.gallery h2 {
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/**********************************
+FOOTER
+***********************************/
+footer{
+  font-size: 1em;
+  text-align: center;
+  clear: both; /* will cancel float property from gallery*/
+  padding-top: 25px;
+  color: #ccc;
+}
+footer p{
+  margin-top: 15px;
+}
+
+.social-icon{
+ width: 35px;
+ height: 35px;
+ margin: 0px 5px;
+}
