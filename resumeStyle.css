@@ -1,5 +1,16 @@
 @import 'https://fonts.googleapis.com/css?family=Fjalla+One';
 
+
+.navbar .navbar-nav {
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
 body {
   position: absolute;
   height: 100%;
