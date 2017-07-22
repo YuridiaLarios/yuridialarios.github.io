@@ -1,5 +1,12 @@
 @import 'https://fonts.googleapis.com/css?family=Fjalla+One';
 
+
+
+
+/**********************************
+RESUME
+***********************************/
+
 body {
   position: absolute;
   height: 100%;
@@ -27,8 +34,8 @@ h3 {
   font-weight: bold;
 }
 
-p {
-  margin-left: 445px;
+.contact-corner {
+  margin-left: 435px;
 
 }
 
@@ -52,7 +59,6 @@ p {
   width: 400px;
   float: left;
   background-image: -webkit-linear-gradient(#ffffff,  #999999);
-  height: 65em;
   padding: 10px;
 
 }
@@ -62,10 +68,33 @@ p {
   float: right;
 }
 
+
 .Skills, .Awards-and-Certificates, .Languages {
   font-size: 17px;
 }
 
 .Experience, .Education {
   font-size: 17px;
+}
+
+
+/**********************************
+FOOTER
+***********************************/
+footer{
+  font-size: 1em;
+  text-align: center;
+  clear: both; /* will cancel float property from gallery*/
+  padding-top: 25px;
+  color: #ccc;
+}
+footer p{
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.social-icon{
+ width: 35px;
+ height: 35px;
+ margin: 0px 5px;
 }

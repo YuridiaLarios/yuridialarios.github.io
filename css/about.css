@@ -1,28 +1,48 @@
 
-* {
-  margin: 0;
-  padding: 0;
+/**********************************
+NAVBAR
+***********************************/
+.navbar .navbar-nav {
+  float: none;
+  vertical-align: top;
 }
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+/**********************************
+  BODY: INFO
+***********************************/
 
 .profile-photo{
   display: block;
-  max-width: 300px;
+  max-width: 175px;
   margin: 0 auto 30px;
   border-radius: 100%;
 
 }
 
 .info {
-  margin: 25px 25px;
+  margin: 55px 55px;
   text-align: justify;
+  line-height: 1.5;
 }
-.info h1 {
+
+h1 {
   text-align: center;
-  font-size: 1.5rem;
   font-weight: 200;
   margin-bottom: 20px;
   color: black;
+  padding-bottom: 5px;
 }
+
+
+
+/**********************************
+  BODY: TIMLELINE
+***********************************/
 
 
 @media (min-width: 1000px) {
@@ -82,24 +102,14 @@
 
 /* Fonts */
 
-body {
-  font-family: Roboto;
-}
 
 #timeline {          /*properties of background*/
-  padding: 20px 10px;
+  padding: 50px 10px;
   background: #f7f7f7;
   border-top: 1px solid rgba(191, 191, 191, 0.4);
   border-bottom: 1px solid rgba(191, 191, 191, 0.4);
 }
 
-#timeline h1 {
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 200;
-  margin-bottom: 20px;
-  color: black;
-}
 
 
 
@@ -249,7 +259,7 @@ body {
 
 @media (min-width: 1000px) {
   #timeline .demo-card .body {
-    height: 405px;              /* how big is the box */
+    height: 435px;              /* how big is the box */
   }
 }
 
@@ -308,49 +318,24 @@ body {
 #timeline .purplebox .head::after {  /*purple arrow*/
   border-color: #7d009f;
 }
+
+
 /**********************************
-NAVIGATION
+FOOTER
 ***********************************/
-
-nav{
+footer{
+  font-size: 1em;
   text-align: center;
-  padding: 20px 0;
-  margin: 0 23px;
-  margin-bottom: -30px;
-  margin-left: 10%;
-  color: #f0eef0;
+  clear: both; /* will cancel float property from gallery*/
+  padding-top: 25px;
+  color: #ccc;
+}
+footer p{
+  margin-top: 15px;
 }
 
-nav ul{
-  list-style: none;
-  margin: 0;
-  padding: 1px;
-}
-
-nav li{
-  display: inline-block;
-  /*
-  Block-Level Elements - Block elements occupy the width of their containers and generally include a line break before and after the element.
-  Inline Elements - Inline elements occupy the width of their contents and do not begin a new line when formatted as text.
-  */
-
-}
-
-nav a{
- text-align: center;
- font-size: 2.2em;
- font-weight:bold; /* google font property */
- padding: 2px 40px;
-}
-
-
-
-nav a, nav a:visited { /*Pseudo-Class - Dynamic selectors that change based on user interaction with the browser, such as hovering/clicking over a link; here, .*/
-  color: black;
-}
-
- nav a.selected, nav a:hover {
- color: black;
- text-shadow: .2px .2px .2px #000;
- letter-spacing: 1.8px;
+.social-icon{
+ width: 35px;
+ height: 35px;
+ margin: 0px 5px;
 }

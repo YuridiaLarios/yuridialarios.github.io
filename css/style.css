@@ -1,17 +1,29 @@
+
+/**********************************
+NAVBAR
+***********************************/
+.navbar .navbar-nav {
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
 /**********************************
 HEADING
 ***********************************/
 
+.img-responsive{
+  margin-top: -19.8px;
+  box-shadow: 0 15px 20px -12px rgba(0, 0, 0, .8);
+}
 header{
  float: left;
  margin: 0 0 30px 0;
  padding: -5px 0 0 0; /*padding in the top without removing top margin*/
  width: 100%;
- border-color: #47ca0a;
-}
-
-#logo{
-  margin: 0;
 }
 
 h1{
@@ -33,53 +45,6 @@ h1, h2 {
   color:#fff;
 }
 
-/**********************************
-NAVIGATION
-***********************************/
-
-nav{
-  text-align: center;
-  padding: 20px 0;
-  margin: 0 23px;
-  margin-bottom: -30px;
-  margin-left: 10%;
-  color: #f0eef0;
-}
-
-nav ul{
-  list-style: none;
-  margin: 0;
-  padding: 1px;
-}
-
-nav li{
-  display: inline-block;
-  /*
-  Block-Level Elements - Block elements occupy the width of their containers and generally include a line break before and after the element.
-  Inline Elements - Inline elements occupy the width of their contents and do not begin a new line when formatted as text.
-  */
-
-}
-
-nav a{
- text-align: center;
- font-size: 1em;
- font-weight:bold; /* google font property */
- padding: 2px 2.9px;
-}
-
-
-
-nav a, nav a:visited { /*Pseudo-Class - Dynamic selectors that change based on user interaction with the browser, such as hovering/clicking over a link; here, .*/
-  color: black;
-}
-
- nav a.selected, nav a:hover {
- color: black;
- text-shadow: .2px .2px .2px #000;
- letter-spacing: 1.3px;
-
-}
 
 
 /**********************************
@@ -88,6 +53,7 @@ GENERAL
 body{
   font-family: Roboto,'Opens Sans', sans-serif;
   background-color: #f0eef0;
+
 }
 
 
@@ -130,6 +96,8 @@ PORTFOLIO
   width: 100%;
   border-color: #47ca0a;
   border-radius: 1%;
+  box-shadow: 0 15px 20px -12px rgba(0, 0, 0, .8);
+
 
 }
 
@@ -205,4 +173,55 @@ footer p{
  width: 35px;
  height: 35px;
  margin: 0px 5px;
+}
+
+
+/**********************************
+CONTACT PAGE
+***********************************/
+
+
+#contact-wrapper{
+  max-width: 100%;  /*centers "boxes" */
+  margin: 0 auto;
+  padding: 50px 0;
+  background:#f0eef0;
+
+}
+
+.contact-img {
+  max-width: 25%;
+  min-width: 241px;
+  display: block;
+  margin: 10px auto;
+  box-shadow: 0 15px 20px -12px rgba(0, 0, 0, .8);
+}
+
+.contact-info{
+  width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 3px;
+  font-size: 16px;
+  text-align: justify;
+  text-justify: inter-word;
+
+
+}
+
+
+.contact-info li{
+ text-align: left;
+ padding: 3px 0;
+ list-style: none;
+ font-size: 17px;
+ padding: 5px;
+}
+
+.contact-info a{
+ display: block;
+  min-height: 25px;
+  background-repeat: no-repeat;
+  background-size: 26px 26px;
+  margin: 0 0 5px;
 }

@@ -1,0 +1,170 @@
+
+/*******************************************************************************
+min-width: 760px
+*******************************************************************************/
+
+/**********************************
+CONTACT PAGE
+***********************************/
+@media (min-width: 760px) {
+
+  header{
+   margin: 0;
+   margin-bottom: -2%;
+   padding: 0; /*padding in the top without removing top margin*/
+   width: 100%;
+  }
+
+  #contact-wrapper{
+    background:#f0eef0;
+    overflow: hidden;
+    clear: both;
+  }
+
+
+  .contact-img {
+    max-width: 25%;
+    min-width: 241px;
+    display: inline-block;
+    float: left;
+    margin: 10px 8%;
+    box-shadow: 0 15px 20px -12px rgba(0, 0, 0, .8);
+  }
+
+  .contact-info{
+    float:left;
+    width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    font-size: 19px;
+    text-align: justify;
+    margin-top: -2px;
+
+  }
+
+
+
+  .contact-info li{
+   text-align: center;
+   padding: 3px 0;
+   list-style: none;
+   font-size: 17px;
+   padding: 5px;
+  }
+
+  .contact-info a{
+    display: inline-block;
+    min-height: 25px;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    margin: 0 0 5px;
+  }
+
+  footer{
+    font-size: 1em;
+    text-align: center;
+    clear: both;; /* will cancel float property from gallery*/
+    padding-top: 25px;
+    color: #ccc;
+  }
+  footer p{
+    margin-top: 15px;
+  }
+
+
+  .social-icon{
+   width: 35px;
+   height: 35px;
+   margin: 0px 5px;
+  }
+
+
+}
+
+
+/*******************************************************************************
+min-width: 710px
+*******************************************************************************/
+
+@media (min-width: 710px) {
+
+  header{
+   margin: 0;
+   margin-bottom: -2%;
+   padding: 0; /*padding in the top without removing top margin*/
+   width: 100%;
+  }
+
+  #contact-wrapper{
+    background:#f0eef0;
+    overflow: hidden;
+    clear: both;
+  }
+
+
+  .contact-img {
+    max-width: 25%;
+    min-width: 241px;
+    display: inline-block;
+    float: left;
+    margin: 10px 8%;
+    box-shadow: 0 15px 20px -12px rgba(0, 0, 0, .8);
+  }
+
+  .contact-info{
+    float:left;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    font-size: 19px;
+    text-align: justify;
+    margin-top: -22px;
+
+  }
+
+  .contact-details{
+    margin-left: -1%;
+  }
+
+  .contact-info li{
+   text-align: center;
+   padding: 3px 0;
+   list-style: none;
+   font-size: 17px;
+   padding: 5px;
+  }
+
+  .contact-info a{
+    display: inline-block;
+    min-height: 25px;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    margin: 0 0 5px;
+  }
+
+  footer{
+    font-size: 1em;
+    text-align: center;
+    clear: both;; /* will cancel float property from gallery*/
+    padding-top: 25px;
+    color: #ccc;
+  }
+  footer p{
+    margin-top: 15px;
+  }
+
+
+  .social-icon{
+   width: 35px;
+   height: 35px;
+   margin: 0px 5px;
+  }
+
+  .center-text{
+    text-align: center;
+    padding:-5%;
+  }
+
+}
