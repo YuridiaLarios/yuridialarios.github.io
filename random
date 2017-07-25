@@ -1,0 +1,142 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Yuridia Larios Resume</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="resumeStyle.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <body>
+
+    <header id="top">
+    <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Yuridia Larios</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="resume2.html">Resume</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav">
+            <li><a href="https://www.linkedin.com/in/yuridia-larios-aispuro"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></span></a></li>
+            <li><a href="https://github.com/YuridiaLarios"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/Yuridia_Larios"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+
+<!-- create two columns -->
+<div id="container">
+
+  <!-- Left column -->
+  <div id="left">
+
+      <h1> Yuridia Larios-Aispuro</h1>
+      <h3> Aspiring Software Engineer</h3>
+        <img class="thumbnail-picture" src="https://i.imgur.com/4k4Iwnj.jpg" />
+
+      <div id="container">
+        <div class="Skills ">
+          <h2>Skills: </h2>
+          <ul>
+            <li> Proficient with processing software.</li>
+            <li> Java programming language.</li>
+            <li> Basic html, css, javascript. </li>
+            <li> Experience working with excel and matlab.</li>
+            <li> Basics of Circuits and ArduinoUNO.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="Awards-and-Certificates ">
+        <h2> Awards and Certificates: </h2>
+          <ul>
+            <li>Mission High School Community Service Award</li>
+            <li>Osher Endowment Scholarship Recipient 2017</li>
+            <li>City and County of San Francisco Clerical 1404/Junior Clerk(1402) certificate</li>
+            <li>Official Seal of Biliteracy</li>
+            <li>The City Club of San Francisco: Outstanding School and Community Leadership Award Nominee (2011).</li>
+          </ul>
+      </div>
+
+      <div class="Languages ">
+        <h2> Languages: </h2>
+          <ul>
+            <li>English and Spanish</li>
+          </ul>
+        <p><br /></p>
+      </div>
+  </div>
+
+
+  <div id="right">
+    <div class="Contact-Info">
+      <p class="contact-corner">San Francisco, CA, 94110 <br /> <strong>(415) 574-6654</strong> <br /> <a href="mailto:yuriydani@gmail.com">yuriydani@gmail.com</a>
+        <br /> <a href="https://www.linkedin.com/in/yuridia-larios-aispuro"  target="_blank">yuridia-larios@linkedin.com</a>
+        <br /> <a href="https://github.com/YuridiaLarios" target="_blank">github.com/YuridiaLarios</a>
+      </p>
+    </div>
+
+    <div class="Experience ">
+      <h2>Teaching Experience: </h2>
+      <h4><strong>Mission High School,</strong> San Francisco - <em>After School Program Leader and Dance Instructor</em><br /> Jan. 2012 – Present.</h4>
+      <ul>
+        <li>Promote workshops based on areas of activism, advocacy, mentorship, community service, leadership and history </li>
+        <li>Deliver age-appropriate skills, content, and materials including movement, terminology, music, choreography, technique, and historical background. </li>
+      </ul>
+
+
+      <h4><strong>Mission Education Center,</strong> San Francisco - <em>After School Program Leader</em><br /> Jul. 2015 – Jul. 2016.</h4>
+      <ul>
+        <li>Assist students with homework, provide instructions and challenge their cognitive skills.</li>
+        <li>Run arts-based activities, community and environmental projects, outdoor and sporting events. </li>
+      </ul>
+
+      <h2>Other Experience: </h2>
+
+      <h4><strong>CVS/Pharmacy,</strong> San Francisco -  <em>Customer Service Representative</em><br /> Jul. 2013 – Mar. 2015.</h4>
+      <ul>
+        <li>Ringed up purchases, processed payments, handled customer questons and issues.</li>
+        <li>Answered the telephone using the appropriate greetings.</li>
+        <li>Priced promotional and seasonal merchandise utilizing price guns, stocked shelves</li>
+        <li>Maintained clean and neat check-out areas and floor isles.</li>
+      </ul>
+
+    </div>
+
+    <div class="Education ">
+       <h2> Education: </h2>
+      <h4>City College of San Francisco - <em>Associate degrees in Math and Computer Science.</em><br /> Aug. 2014 - Dec. 2017 </h4>
+
+      <h4>Mission Techie Graduate, San Francisco - <em> Web Development, Hardware, and Soft skills.</em>  <br /> Oct. 2016 - Dec. 2016</h4>
+
+    </div>
+    </body>
+  </div>
+</div>
+  <footer>
+    <a href="https://www.linkedin.com/in/yuridia-larios-aispuro"><img src="images/linkedin-icon.png" alt="linkedin logo" class="social-icon"></a>
+    <a href="https://twitter.com/Yuridia_Larios"><img src="images/twitter-icon.png" alt="twitter logo" class="social-icon"></a>
+    <a href="https://www.facebook.com/yuridia.larios"><img src="images/facebook-icon.png" alt="facebook logo" class="social-icon"></a>
+    <p>&copy; 2017 Yuridia Larios</p>
+    <a href="#top"><p>back to top</p></a>
+  </footer>
+
+  </html>

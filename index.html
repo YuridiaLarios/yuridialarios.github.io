@@ -1,211 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Yuridia-Mi Mundo-My World</title>
+  <head>
+    <meta charset="utf-8">
+    <title>Yuridia Larios</title>
+    <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700,700i,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/homepageResponsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Yuridia Larios</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="resume2.html">Resume</a></li>
+        </ul>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <ul class="nav navbar-nav">
+        <li><a href="https://www.linkedin.com/in/yuridia-larios-aispuro"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></span></a></li>
+        <li><a href="https://github.com/YuridiaLarios"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/Yuridia_Larios"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
 
-        <!--bootstrap for mobile friendly, To ensure proper rendering and touch zooming -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" type="text/css" href="navStyle.css">
-        <link rel="stylesheet" type="text/css" href="croosCSS.css">
-
-
-        <!--Jquery enable-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script type="text/javascript" src="allProjectsDetails.js"></script>
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
-
-
-
-
-    </head>
-    <body>
-
-        <nav>
-
-            <!-- sidebar button -->
-            <a href="#" class="nav-toggle-btn">
-              <button type="button" class="btn btn-default" aria-label="Left Align">
-                <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
-              </button>
-            </a>
-
-            <img class="thumbnail-logo" src="http://i.imgur.com/lItWODS.png" alt="Yuridia Larios Logo" />
-
-
-            <!-- sidebar menu -->
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#projects"> Design</a></li>
-                <li><a href="#timeline">Journey</a></li>
-                <li><a href="#contactMe">Contact</a></li>
-                <li><a href="resume.html" target="_blank">Resume</a></li>
-
-                <li><a target="_blank" href="https://www.linkedin.com/in/yuridia-larios-aispuro"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_profile_bluetxt_80x15.png" text-align="center" width="80" height="15" border="0" alt="View Yuridia Larios Aispuro's profile on LinkedIn"></a></li>
-                <li><a target="_blank" href="https://github.com/YuridiaLarios"><img src="http://www.aha.io/assets/integration_logos/github-bb449e0ffbacbcb7f9c703db85b1cf0b.png" width="120" height="35" border="0" alt="view Yuridia Larios Aispuro's profile on github"></a></li>
-                <li><a target="_blank" title="find me on Facebook" href="http://www.facebook.com/yuridia.larios"><img alt="follow me on facebook" src="//login.create.net/images/icons/user/facebook_30x30.png" border=0></a></li>
-
-            </ul>
-
-        </nav>
-
-        <!-- page content -->
-
-        <div class="content">
-
-
-        <!-- main banner-->
-              <img class="img-responsive" src="images/yuridia banner.png" alt="books and yuri's face"/>
-
-
-
-        <div id="projects">
-          <div class="jumbotron-projects">
-              <div id="box1">
-                <h1> Projects on Wordpress</h1>
-                <div class="wordpressProjects"></div>
-              </div>
-
-
+    </header>
+      <img class="biggerScreen img-responsive" src="images/yuridia-big-banner.png">
+    <div id="projects">
+      <div class="jumbotron-projects">
+        <div id="wrapper">
+          <section>
               <div id="box2">
-                <h1> Projects using HTML CSS and JavaScript</h1>
-                <div class="codedProjects"></div>
+                <ul class="gallery coding-projects">
+                  <h2>Coding Projects</h2>
+                  <li><a href="http://devmission.org/aboutUs/" target="_blank"><img src="images/devMission.png" alt="devMission Website"><p>devMission NonProfit Website 2017</p></a></li>
+                  <li><a href="https://mission-techies.github.io/mission_techies_tracker.github.io/index.html" target="_blank"><img src="images/mission-techies-tracker.png" alt="mission techies tracker"><p>Mission Techies Tracker 2016<br> First Project ever</p></a></li>
+                </ul>
               </div>
 
+              <div id="box1">
+                <ul class="gallery wordpress-projects">
+                  <h2>Projects on wordpress</h2>
+                  <li><a href="https://equinocciojewelry.wordpress.com/" target="_blank"><img src="images/equinoccio.png" alt="equinoccion SF local business"><p>Equinoccio San Francisco Local Business 2016</p></a></li>
+                  <li><a href="https://yurisworld.wordpress.com/" target="_blank"><img src="images/blog.png" alt="My personal blog"><p>My personal wordpress blog 2016</p></a></li>
+                </ul>
+              </div>
 
               <div id="box3">
-                <h1> Logos </h1>
-                <div class="logoProjects"></div>
-              </div>
-          </div>
-        </div>
-
-
-
-
-
-
-
-          <div id="timeline">
-          <div class="jumbotron-timeline">
-            <div class="container">
-              <div class="journey-info"><h1>My Journey in Tech</h1> <br> STEP BY STEP WILL GET ME THERE…<br>
-                My way up working towards my ultimately goal: to become a software Engineer.
-                <br>Next steps: QA Software Testing / Front End Web Development.<br>
-              </div>
-
-              <div class="arrow-up"></div>
-
-              <div class="row">
-                <div class="col-md-6 left">
-                  <div class="row">
-
-                    <div class="items-green">
-                      <div class="items-title-green"><h2><strong><br>SF Mission Techie Graduate<br></strong></h2></div>
-                      <div class="story-text"><strong>Oct 2016-Dec 2017: Intensive Technology Program where I learned and worked with IT essentials of hardware, software, networking, and coding, plus how to provide tech support to low-income families.</strong></div>
-                      <img class="pointing-right-arrow" src="http://i.imgur.com/g8KtIDE.png"/>
-                      <img class="item-picture" src="http://i.imgur.com/A2rsemp.jpg" alt="Yuridia's face picture" />
-
-                    </div>
-
-                    <div class="items-yellow">
-                      <div class="items-title-yellow"><h2><strong><br>Finding my Career: CCSF<br></strong></h2></div>
-                      <div class="story-text"><strong>2011-2017: Majoring in Computer Science and Engineering. <br> Java, C++, Unix, ArduinoUno, Mathlab.</strong></div>
-                      <img class="pointing-right-arrow" src="http://i.imgur.com/HsKVWw3.png"/>
-                      <img class="item-picture" src="http://i.imgur.com/XRyScvs.jpg" alt="Yuridia's face picture" />
-
-                    </div>
-
-                    <div class="items-red">
-                      <div class="items-title-red"><h2><strong><br>Early Beginnings<br></strong></h2></div>
-                      <div class="story-text"><strong>1996: First Computer ever in English so I could learn the language while playing educational games. <br> 2000: Introduction to Windows 98 and PC gaming.</strong></div>
-                      <img class="pointing-right-arrow" src="http://i.imgur.com/PqUO6wi.png"/>
-                      <img class="item-picture" src="http://i.imgur.com/CTF2yNk.jpg" alt="Yuridia's face picture" />
-
-                    </div>
-                  </div>
-              </div>
-
-              <div class="col-md-6 right">
-                <div class="row">
-
-                  <div class="items-red">
-                    <div class="items-title-red"><h2><strong><br>Currently: <br></strong></h2></div>
-                    <div class="story-text"><strong>January 2017: Looking for my next Journey.<br> <br>"Wherever you go, go with all your heart"<br>- Confucius </strong></div>
-                    <img class="pointing-left-arrow" src="http://i.imgur.com/MsD2y0G.png"/>
-                    <img class="item-picture" src="http://i.imgur.com/GTTUpnF.png" alt="Yuridia's face picture" />
-
-
-                  </div>
-
-                  <div class="items-blue">
-                    <div class="items-title-blue"><h2><strong><br>Individual Work<br></strong></h2></div>
-                    <div class="story-text"><strong>2013-2015: Logos and Website design for local businesses. <br> Joomla, Wordpress, HTML/CSS/JavaScript.</strong></div>
-                    <img class="pointing-left-arrow" src="http://i.imgur.com/d5Xj6Er.png"/>
-                    <img class="item-picture" src="http://i.imgur.com/EfnnGhv.png" alt="Yuridia's face picture" />
-
-                  </div>
-
-                  <div class="items-purple">
-                    <div class="items-title-purple"><h2><strong><br>Gaining Knowledge<br></strong></h2></div>
-                    <div class="story-text"><strong>2003: SEP Certificate in Windows and Basic internet, SEP Certificate in Word and Power Point 2000. <br> 2005: ERA Summer Program for elementary students with advance computer skills.</strong></div>
-                    <img class="pointing-left-arrow" src="http://i.imgur.com/Fw2drXO.png"/>
-                    <img class="item-picture" src="http://i.imgur.com/79XxWpV.jpg" alt="Yuridia's face picture" />
-
-                  </div>
-
-                </div>
-              </div>
+                <ul class="gallery logos-projects">
+                  <h2>Logos</h2>
+                  <li><a href="images/YL-logo.png"><img src="images/YL-logo.png" alt="My personal logo"><p>My personal logo 2016</p></a></li>
+                  <li><a href="images/roadmap-to-peace-logo.png"><img src="images/roadmap-to-peace-logo.png" alt="roadmap to peace non-profit logo contest: first place.">
+                        <p>Roadmap to peace Nonprofit. Logo contest: first place 2015</p></a></li>
+                  <li><a href="images/ole-can-dance-logo.png"><img src="images/ole-can-dance-logo.png" alt="Dance Team Logo: Ole Can Dance 2014">
+                        <p>Dance team logo: Ole Can Dance 2014</p></a></li>
+                </ul>
             </div>
-          </div>
-
-
-
-        </div>
+          </section>
+        </div> <!--end of wrapper id-->`
       </div>
-
-
-      <div id="contactMe">
-        <div class="jumbotron-contactMe">
-          <div class="container">
-            <img class="thumbnail-yuri" src="http://i.imgur.com/uxJVf5J.png" alt="Yuridia's face picture" />
-            <h2>Yuridia Larios-Aispuro</h2>
-            <h2>yuriydani@gmail.com</h2>
-            <h2><a href="https://www.linkedin.com/in/yuridia-larios-aispuro" target="_blank">LinkedIn/YuridiaLariosAispuro</a></h2>
-          </div>
-        </div>
-      </div>
-
-
-
     </div>
 
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-      <script type="text/javascript">
-
-        (function() {
-
-            var bodyEl = $('body'),
-                navToggleBtn = bodyEl.find('.nav-toggle-btn');
-
-            navToggleBtn.on('click', function(e) {
-                bodyEl.toggleClass('active-nav');
-                e.preventDefault();
-            });
-
-
-
-        })();
-        </script>
-
-    </body>
-
+      <footer>
+        <a href="https://www.linkedin.com/in/yuridia-larios-aispuro"><img src="images/linkedin-icon.png" alt="linkedin logo" class="social-icon"></a>
+        <a href="https://twitter.com/Yuridia_Larios"><img src="images/twitter-icon.png" alt="twitter logo" class="social-icon"></a>
+        <a href="https://www.facebook.com/yuridia.larios"><img src="images/facebook-icon.png" alt="facebook logo" class="social-icon"></a>
+        <p>&copy; 2017 Yuridia Larios</p>
+        <a href="#top"><p>back to top</p></a>
+      </footer>
+  </body>
 </html>

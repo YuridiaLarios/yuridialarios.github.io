@@ -1,0 +1,342 @@
+
+/**********************************
+NAVBAR
+***********************************/
+.navbar .navbar-nav {
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+/**********************************
+  BODY: INFO
+***********************************/
+
+
+.profile-photo{
+  display: block;
+  max-width: 175px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+
+}
+
+.info {
+  margin: 55px 55px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 20px;
+  color: black;
+  padding-bottom: 5px;
+}
+
+
+
+/**********************************
+  BODY: TIMLELINE
+***********************************/
+
+
+@media (min-width: 1000px) {
+  #timeline .demo-card:nth-child(odd) .head::after,
+  #timeline .demo-card:nth-child(even) .head::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+  #timeline .demo-card:nth-child(odd) .head::before,
+  #timeline .demo-card:nth-child(even) .head::before {
+    position: absolute;
+    content: "";
+    width: 9px;
+    height: 9px;
+    background-color: #bdbdbd;
+    border-radius: 9px;
+    box-shadow: 0px 0px 2px 8px #f7f7f7;
+  }
+}
+
+
+.demo-card:nth-child(1) {
+  order: 1;
+}
+
+.demo-card:nth-child(2) {
+  order: 4;
+}
+
+.demo-card:nth-child(3) {
+  order: 2;
+}
+
+.demo-card:nth-child(4) {
+  order: 5;
+}
+
+.demo-card:nth-child(5) {
+  order: 3;
+}
+
+.demo-card:nth-child(6) {
+  order: 6;
+}
+
+
+/* Border Box */
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Fonts */
+
+
+#timeline {          /*properties of background*/
+  padding: 50px 10px;
+  background: #f7f7f7;
+  border-top: 1px solid rgba(191, 191, 191, 0.4);
+  border-bottom: 1px solid rgba(191, 191, 191, 0.4);
+}
+
+
+
+
+#timeline .demo-card-wrapper {
+  position: relative;
+  margin: auto;
+}
+
+@media (min-width: 1000px) {
+  #timeline .demo-card-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    width: 1170px;
+    max-height: 1750px;
+    margin: 0 auto;
+  }
+}
+
+#timeline .demo-card-wrapper::after {    /* line in the middle */
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  border-left: 1px solid rgba(191, 191, 191, 0.4);
+}
+
+@media (min-width: 1000px) {
+  #timeline .demo-card-wrapper::after {
+    border-left: 1px solid #bdbdbd;
+  }
+}
+
+#timeline .demo-card {
+  position: relative;
+  display: block;
+  margin: 10px auto 80px;
+  max-width: 94%;
+  z-index: 2;
+}
+
+@media (min-width: 480px) {
+  #timeline .demo-card {
+    max-width: 60%;
+    box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+  }
+}
+
+@media (min-width: 720px) {
+  #timeline .demo-card {
+    max-width: 40%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #timeline .demo-card {
+    max-width: 450px;
+    height: 445px;
+    margin: 90px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  #timeline .demo-card:nth-child(odd) {
+    margin-right: 45px;
+  }
+  #timeline .demo-card:nth-child(odd) .head::after {
+    border-left-width: 15px;
+    border-left-style: solid;
+    left: 100%;
+  }
+  #timeline .demo-card:nth-child(odd) .head::before {
+    left: 491.5px;
+  }
+  #timeline .demo-card:nth-child(even) {
+    margin-left: 45px;
+  }
+  #timeline .demo-card:nth-child(even) .head::after {
+    border-right-width: 15px;
+    border-right-style: solid;
+    right: 100%;
+  }
+  #timeline .demo-card:nth-child(even) .head::before {
+    right: 489.5px;
+  }
+  #timeline .demo-card:nth-child(2) {
+    margin-top: 180px;
+  }
+}
+
+#timeline .demo-card .head { /* text inside the box header */
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+#timeline .demo-card .head .number-box {
+  display: inline;
+  float: left;
+  margin: 15px;
+  padding: 10px;
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.17);
+}
+
+#timeline .demo-card .head h2 {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: inherit;
+  letter-spacing: 2px;
+  margin: 0;
+  padding-bottom: 6px;
+  line-height: 1rem;
+}
+
+@media (min-width: 480px) {
+  #timeline .demo-card .head h2 {
+    font-size: 165%;
+    line-height: 1.2rem;
+  }
+}
+
+#timeline .demo-card .head h2 span {
+  display: block;
+  font-size: 0.6rem;
+  margin: 0;
+}
+
+@media (min-width: 480px) {
+  #timeline .demo-card .head h2 span {
+    font-size: 0.8rem;
+  }
+}
+
+#timeline .demo-card .body {  /*color of the body of the boxes*/
+  background: #fff;
+  border: 1px solid rgba(191, 191, 191, 0.4);
+  border-top: 0;
+  padding: 15px;
+}
+
+
+
+
+@media (min-width: 1000px) {
+  #timeline .demo-card .body {
+    height: 435px;              /* how big is the box */
+  }
+}
+
+/* text inside my boxes */
+#timeline .demo-card .body p {
+  font-size: 19px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+#timeline .demo-card .body img {
+  display: block;
+  width: 100%;
+
+}
+
+#timeline .redBox {
+  background-color: #cf0000;   /*red box */
+
+}
+
+
+#timeline .redBox .head::after { /*red arrow*/
+  border-color: #cf0000;
+}
+
+#timeline .greenBox {  /*green box*/
+  background: #7bda4f;
+}
+
+
+#timeline .greenBox .head::after { /*green arrow*/
+  border-color: #7bda4f;
+}
+
+#timeline .blueBox {  /*blue box*/
+  background-color: #0069c2;
+}
+
+#timeline .blueBox .head::after {  /*blue arrow*/
+  border-color: #0069c2;
+}
+
+#timeline .yellowBox {    /*yellow box*/
+  background-color: #ffc100;
+}
+
+#timeline .yellowBox .head::after {  /*yellow arrow*/
+  border-color: #ffc100;
+}
+
+#timeline .purpleBox {      /*purple box*/
+  background-color: #7d009f;
+}
+
+#timeline .purplebox .head::after {  /*purple arrow*/
+  border-color: #7d009f;
+}
+
+
+/**********************************
+FOOTER
+***********************************/
+footer{
+  font-size: 1em;
+  text-align: center;
+  clear: both; /* will cancel float property from gallery*/
+  padding-top: 25px;
+  color: #ccc;
+}
+footer p{
+  margin-top: 15px;
+}
+
+.social-icon{
+ width: 35px;
+ height: 35px;
+ margin: 0px 5px;
+}

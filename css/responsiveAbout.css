@@ -1,0 +1,66 @@
+
+
+
+/*******************************************************************************
+min-width: 1180px
+*******************************************************************************/
+
+@media (min-width: 1180px) {
+  .profile-photo{
+    display: inline;
+    float: left;
+    max-width: 230px;
+    margin: 3% 11% 30px;
+    border-radius: 100%;
+
+  }
+
+.info h1{
+  margin-right: 47%;
+}
+
+  .info {
+    display: inline-block;
+    float: left;
+    text-align: justify;
+    line-height: 1.5;
+  }
+
+  .info p{
+    margin-left: 42.5%;
+    margin-right:6%;
+  }
+  #timeline {          /*properties of background*/
+    padding: 50px 10px;
+    background: #f7f7f7;
+    border-top: 1px solid rgba(191, 191, 191, 0.4);
+    border-bottom: 1px solid rgba(191, 191, 191, 0.4);
+    clear: both;
+  }
+
+
+}
+
+/*******************************************************************************
+min-width: 760px
+*******************************************************************************/
+
+@media (min-width: 760px) {
+  #timeline .demo-card .body img {
+    display: block;
+    width: 100%;
+    max-height: 80%;
+
+
+  }
+
+}
+
+
+/*******************************************************************************
+min-width: 710px
+*******************************************************************************/
+
+@media (min-width: 710px) {
+
+}
