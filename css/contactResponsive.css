@@ -16,7 +16,7 @@ CONTACT PAGE
   }
 
   #contact-wrapper{
-    background:#f0eef0;
+
     overflow: hidden;
     clear: both;
   }
@@ -97,9 +97,17 @@ min-width: 710px
   }
 
   #contact-wrapper{
-    background:#f0eef0;
+
+    background:
+      url('../images/books.jpg') no-repeat;
+      background-position: 48% 107px;
+      background-attachment: inherit;
     overflow: hidden;
     clear: both;
+  }
+
+  #contact-wrapper{
+    height: 800px;
   }
 
 
@@ -168,3 +176,7 @@ min-width: 710px
   }
 
 }
+
+/*******************************************************************************
+min-width: 570px
+*******************************************************************************/

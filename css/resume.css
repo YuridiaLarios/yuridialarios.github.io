@@ -15,12 +15,19 @@ BODY: HEADER: NAVBAR
 /**********************************
 BODY: BIG CONTAINER
 ***********************************/
+body{
 
+    background:
+     linear-gradient(transparent 70%, white 81%),
+     #ffa949 url('../images/paint.jpg') left center;
+     background-repeat: no-repeat;
+}
 
 #container {
   overflow: hidden;
   width: 100%;
   margin: 0 auto;
+
 }
 
 #container h1, h3{
@@ -40,6 +47,7 @@ BODY: LEFT CONTAINER
   background: #cbccc8;
   margin-left: 5%;
   font-size: 16px;
+
 }
 
 
@@ -67,6 +75,7 @@ BODY: RIGH CONTAINER
   font-size: 16px;
 }
 
+
 /**********************************
 FOOTER
 ***********************************/
@@ -76,6 +85,9 @@ footer{
   clear: both; /* will cancel float property from gallery*/
   padding-top: 25px;
   color: #ccc;
+  margin-top: 2%;
+  margin-bottom: 5%;
+
 }
 footer p{
   margin-top: 15px;
