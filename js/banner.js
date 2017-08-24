@@ -1,0 +1,31 @@
+
+// Global variables
+var str = "Hello World! 👾 ";
+var name = "Yuridia Larios";
+var $backImg = $(".banner").css("background-image");
+
+$(".banner-jobTitle").hide();
+$(".banner").css("background-image", "none");
+
+// FUNCTION: Typewriting effect
+function typeWritingEffect(text) {
+  var index = 0;
+  typeWriter = setInterval(function() {
+    document.querySelector("h1").textContent += text[index];
+    index += 1;
+    if (index > text.length - 1) {
+      clearInterval(typeWriter);
+    }
+  }, 250);
+}
+
+// MAIN PROGRAM:
+  typeWritingEffect(str);
+  $("h1").delay(5000).fadeOut("slow").empty();
+
+  setTimeout(function() {
+    $(".fly-in-text").removeClass("yellow");
+    $("h3").delay(3000).show(0);
+    $(".banner").css("background-image", $backImg);
+
+  }, 5700);

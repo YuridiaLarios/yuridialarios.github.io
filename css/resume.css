@@ -15,13 +15,6 @@ BODY: HEADER: NAVBAR
 /**********************************
 BODY: BIG CONTAINER
 ***********************************/
-body{
-
-    background:
-     linear-gradient(transparent 70%, white 81%),
-     #ffa949 url('../images/paint.jpg') left center;
-     background-repeat: no-repeat;
-}
 
 #container {
   overflow: hidden;
