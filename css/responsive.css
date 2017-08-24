@@ -1,0 +1,219 @@
+/*******************************************************************************
+min-width: 1152px
+*******************************************************************************/
+
+@media (max-width: 1234px){
+  .banner-jobTitle {
+    left: 51%;
+    top: 52%;
+  }
+  .fly-in-text {
+    left: 49%;
+    top: 45%;
+  }
+  .fly-in-text li {
+    margin-right: 12px;
+    font-size: 6.5em;
+  }
+
+  .banner-yuri-photo{
+    width: 22%;
+  }
+
+
+    .about-section{
+    margin-bottom: 20%;
+    }
+
+    .about-description{
+      font-size: 1.5em;
+      font-weight:300;
+      margin: 5% 4% 1%;
+    }
+
+  .portfolio {
+    padding: 4% 1%;
+    border-radius: 1%;
+    height: 900px;
+    margin: 10% 5% 16%;
+  }
+  #parent{
+   margin-left: 4%;
+ }
+  .project-box{
+    width: 22%;
+    height: 200px;
+    margin: 1%;
+    -webkit-box-shadow: .5px .5px .5px .5px #505050;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    .5px .5px .5px .5px #505050;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         .5px .5px .5px .5px #505050;/* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+  .project-box{
+    height: 180px;
+  }
+
+  .portfolio li a p{
+   font-size: .995em;
+  }
+  .contact{
+    width: 95%;
+    height: 520px;
+  }
+  .contact-logo-container{
+    padding: 12% 2%;
+  }
+
+  .contact-inner-div{
+    width: 55%;
+    height: 300px;
+  }
+  .contact-info-container{
+    padding: 6% 0%;
+  }
+
+  .contact-info-container li{
+    margin: 6% -1%;
+  }
+
+  .contact-info-container li a{
+    font-size: 16px;
+    letter-spacing: 0.1px;
+  }
+  .contact-more-buttons{
+    margin-top: 8%;
+  }
+
+}
+
+
+/*******************************************************************************
+min-width: 990px
+*******************************************************************************/
+
+@media (max-width: 990px){
+  .banner-jobTitle {
+    left: 51%;
+    top: 52%;
+  }
+  .fly-in-text {
+    left: 49%;
+    top: 45%;
+  }
+  .fly-in-text li {
+    margin-right: 10px;
+    font-size: 5.7em;
+  }
+
+
+  .banner-yuri-photo{
+    width: 23%;
+  }
+
+  .about-section{
+  margin-bottom: 20%;
+  }
+
+  .portfolio {
+    padding: 4% 0%;
+    height: 890px;
+    margin: 8% 4%;
+    margin-bottom: 19%;
+
+  }
+
+  .project-box{
+    width: 22%;
+    height: 180px;
+  }
+
+  .portfolio li a p{
+   font-size: 0.950em;
+  }
+
+  .contact-inner-div{
+    width: 59%;
+    height: 270px;
+
+  }
+  .contact-info-container li{
+    margin: 6% 1%;
+  }
+
+  .contact-info-container li a{
+    font-size: 15px;
+    letter-spacing: 0px;
+  }
+}
+
+@media (max-width: 852px){
+
+  .banner{
+    height: 500px;
+    margin-bottom: 10%;
+  }
+  .banner-hello {
+    font-size: 8rem;
+  }
+
+  .banner-jobTitle {
+    font-size: 20px;
+    top: 49%;
+  }
+  .fly-in-text {
+    top: 43%;
+  }
+  .fly-in-text li {
+    margin-right: 0px;
+    font-size: 5em;
+  }
+
+  .banner-yuri-photo{
+    width: 28%;
+    top: 78%;
+
+  }
+
+  .about-section{
+  margin-bottom: 1%;
+  }
+  .about-description{
+    font-size: 1.2em;
+    font-weight:300;
+    margin: 5% 4% 1%;
+  }
+  .about-skills-icons{
+    width: 11.5%;
+  }
+
+
+  .portfolio {
+    height: 850px;
+  }
+
+  #parent{
+   height: 85%;
+   margin: 2% 0%;
+   margin-left: 0%;
+   padding: 0% 2%;
+ }
+
+  .project-box{
+    width: 31%;
+    height: 190px;
+  }
+
+  .portfolio li a p{
+   font-size: 0.930em;
+  }
+
+  .contact-inner-div{
+    height: 270px;
+    width: 75%;
+  }
+
+  .contact-info-container li a{
+    font-size: 14.9px;
+  }
+
+
+}
