@@ -148,8 +148,8 @@ min-width: 990px
 @media (max-width: 852px){
 
   .banner{
-    height: 500px;
-    margin-bottom: 10%;
+    height: 470px;
+    margin-bottom: 5%;
   }
   .banner-hello {
     font-size: 8rem;
@@ -174,7 +174,7 @@ min-width: 990px
   }
 
   .about-section{
-  margin-bottom: 1%;
+  margin-bottom: 15%;
   }
   .about-description{
     font-size: 1.2em;
