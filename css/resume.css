@@ -67,27 +67,3 @@ BODY: RIGH CONTAINER
   margin-bottom: -500em;
   font-size: 16px;
 }
-
-
-/**********************************
-FOOTER
-***********************************/
-footer{
-  font-size: 1em;
-  text-align: center;
-  clear: both; /* will cancel float property from gallery*/
-  padding-top: 25px;
-  color: #ccc;
-  margin-top: 2%;
-  margin-bottom: 5%;
-
-}
-footer p{
-  margin-top: 15px;
-}
-
-.social-icon{
- width: 35px;
- height: 35px;
- margin: 0px 5px;
-}
