@@ -145,6 +145,11 @@ min-width: 990px
   }
 }
 
+
+/*******************************************************************************
+min-width: 990px
+*******************************************************************************/
+
 @media (max-width: 852px){
 
   .banner{
@@ -215,5 +220,217 @@ min-width: 990px
     font-size: 14.9px;
   }
 
+
+}
+
+/*******************************************************************************
+min-width: 990px
+*******************************************************************************/
+@media (max-width: 400px){
+
+  .banner{
+    position: relative;
+    width: auto;
+    height: 210px;
+    margin-top: -2%;
+    background-image:url('http://res.cloudinary.com/dw2liwt16/image/upload/v1502788870/black-banner-only-city_ymg4qk.png');
+  }
+
+  .banner-hello {
+    margin-top: 18vh;
+    font-size: 3.2rem;
+  }
+
+  .banner-jobTitle {
+    top: 50%;
+    font-size: 12px;
+  }
+
+  .banner-yuri-photo{
+    width: 29%;
+    border: 4px solid white;
+  }
+
+  .fly-in-text {
+    left: 44%;
+    top: 50%;
+  }
+
+  .fly-in-text li {
+    margin-right: 0px;
+    font-size: 2.1em;
+    color: #f0eef0;
+    transition: all 2.5s ease;
+  }
+
+  .about-section{
+  width: 85%;
+  margin: 0 auto;
+  border: 2px transparent solid;
+  }
+
+  .about-description{
+    font-size: .8em;
+    margin: 5% -5%;
+  }
+
+  .about-skills{
+    height: 20%;
+    width:100%;
+    text-align: center;
+    padding: 1%;
+  }
+
+  .about-skills-icons{
+    width: 20%;
+  }
+
+  .color_flip {
+     filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+     filter: none; /* IE5+ */
+     -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+     -webkit-transition: all .5s ease-in-out;
+   }
+
+   .color_flip:hover {
+     filter: none;
+     -webkit-transform: scale(1.05);
+   }
+
+    /**********************************
+    BODY: SECTION: portfolio
+    ***********************************/
+
+
+     .portfolio {
+       padding: 2% 5%;
+       border-radius: 1%;
+       margin: 8% 5.5%;
+       margin-bottom: 12%;
+       margin-top: 29%;
+
+     }
+
+     .portfolio-title{
+       height: 8%;
+       padding: 1%;
+     }
+     .filter-menu{
+       height: 4%;
+       padding: 0%;
+
+     }
+
+     .filter-menu button {
+       padding: 2px;
+       margin: 0%;
+       opacity: 0.8;
+       background: black;
+     }
+
+     .filter-menu .btn{
+       color: white;
+       font-size: .6em;
+       font-weight: bold;
+     }
+     .portfolio {
+       height: 490px;
+       padding: 2px;
+       padding-top: 5px;
+     }
+
+     #parent{
+      height: 85%;
+      margin-left: 1%;
+      padding: 0%;
+    }
+
+   .project-box{
+     width: 31%;
+     height: 107px;
+     margin: 2% 1%;
+     -webkit-box-shadow: 1px 1px 1px 1px #505050;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+     -moz-box-shadow:    1px 1px 1px 1px #505050;  /* Firefox 3.5 - 3.6 */
+     box-shadow:         1px 1px 1px 1px #505050;/* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+     border-radius: 2%;
+     background: white;
+     cursor: pointer;
+     display: inline-block;
+     float: left;
+   }
+
+    .portfolio li{
+      float: left; /*items appear side by side*/
+    }
+
+    .portfolio li a p{
+     margin: 0;
+     padding: 4%;
+     text-align: center;
+     font-size: .65em;
+     font-weight:500;
+    }
+
+    .contact{
+      width: 90%;
+      height: 180px;
+      margin: 8% auto;
+      margin-bottom: 20%;
+      text-align: center;
+    }
+
+    .contact-inner-div{
+      width: 76%;
+      height: 60%;
+      margin: 4% auto;
+      border-radius: 3%;
+    }
+
+    .contact-logo-container{
+      width: 40%;
+      height: 100%;
+      float: left;
+      border-top-left-radius: 3%;
+      border-bottom-left-radius: 3%;
+      padding: 12% 1%;
+    }
+
+    .contact-info-container{
+      padding: 4% 0%;
+    }
+
+    .contact-info-container li{
+      list-style: none; /*removes bullet points from li*/
+      margin: 3% -32%;
+    }
+
+    .contact-info-container li a{
+      color: white;
+      text-decoration: none;
+      font-size: 7px;
+    }
+
+    .contact-info-container li:hover{
+      -webkit-transform: scale(1.08);
+    }
+
+    .contact-info-container li a:hover{
+      cursor: pointer;
+    }
+
+    .contact-buttons a{
+      font-size: 12px;
+      padding: 0px;
+      color: white;
+    }
+
+    .contact-buttons a:hover{
+      text-decoration: none;
+      color: white;
+    }
+
+    .contact-journey-button{
+      margin-right: 29%;
+    }
 
 }
