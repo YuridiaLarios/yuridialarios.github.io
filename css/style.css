@@ -382,13 +382,14 @@ BODY: SECTION: CONTACT PAGE
    font-size: 1em;
    text-align: center;
    clear: both; /* will cancel float property from gallery*/
-   padding-top: 25px;
+   padding: 45px;
    color: #ccc;
-   margin-top: 2%;
+   margin-top: 0%;
+   margin-bottom: 0%;
    background: black;
  }
  footer p{
-   margin-top: 15px;
+   margin: 15px;
  }
 
  .social-icon{
