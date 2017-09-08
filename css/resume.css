@@ -2,6 +2,7 @@
 /**********************************
 BODY: HEADER: NAVBAR
 ***********************************/
+
 .navbar .navbar-nav {
   float: none;
   vertical-align: top;
@@ -9,6 +10,16 @@ BODY: HEADER: NAVBAR
 
 .navbar .navbar-collapse {
   text-align: center;
+}
+
+.navbar a{
+  color: #66757f;
+  font-family: "Open Sans", "Arial";
+  font-weight: bold;
+}
+
+.active {
+    background-color: #ddd;
 }
 
 
