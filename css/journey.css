@@ -11,6 +11,17 @@ NAVBAR
   text-align: center;
 }
 
+.navbar a{
+  color: #66757f;
+  font-family: "Open Sans", "Arial";
+  font-weight: bold;
+}
+
+.active {
+    background-color: #ddd;
+}
+
+
 
 /**********************************
   BODY: INFO
@@ -339,4 +350,29 @@ footer p{
  width: 35px;
  height: 35px;
  margin: 0px 5px;
+}
+
+/**********************************
+FOOTER
+***********************************/
+footer{
+
+  font-size: 1em;
+  text-align: center;
+  clear: both; /* will cancel float property from gallery*/
+  padding: 45px;
+  color: #ccc;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background: black;
+}
+footer p{
+  margin: 15px;
+}
+
+.social-icon{
+ width: 35px;
+ height: 35px;
+ margin: 0px 5px;
+ color: gray;
 }
