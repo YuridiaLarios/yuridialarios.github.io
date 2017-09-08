@@ -226,7 +226,7 @@ min-width: 990px
 /*******************************************************************************
 min-width: 990px
 *******************************************************************************/
-@media (max-width: 400px){
+@media (max-width: 550px){
 
   .banner{
     position: relative;
@@ -373,7 +373,7 @@ min-width: 990px
 
     .contact{
       width: 90%;
-      height: 180px;
+      height: 190px;
       margin: 8% auto;
       margin-bottom: 20%;
       text-align: center;
@@ -392,16 +392,16 @@ min-width: 990px
       float: left;
       border-top-left-radius: 3%;
       border-bottom-left-radius: 3%;
-      padding: 12% 1%;
+      padding: 8% 1%;
     }
 
     .contact-info-container{
-      padding: 4% 0%;
+      padding: 2%;
     }
 
     .contact-info-container li{
       list-style: none; /*removes bullet points from li*/
-      margin: 3% -32%;
+      margin: 3% -30%;
     }
 
     .contact-info-container li a{
