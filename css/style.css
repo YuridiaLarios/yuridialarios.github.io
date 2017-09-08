@@ -73,7 +73,7 @@ HEADING: BANNER
 .fly-in-text {
   list-style: none;
   position: absolute;
-  left: 49%;
+  left: 47.5%;
   top: 40%;
   -webkit-transform: translateX(-50%) translateY(-40%);
   -moz-transform:    translateX(-50%) translateY(-40%);
