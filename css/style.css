@@ -407,3 +407,7 @@ BODY: SECTION: CONTACT PAGE
   margin: 0px 5px;
   color: gray;
  }
+
+ .social-icon:hover{
+   opacity: 0.7;
+ }
