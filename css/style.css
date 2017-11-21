@@ -33,9 +33,6 @@ HEADING: BANNER
   font-family: sans-serif;
   color: #f0eef0;
   border: 2px solid black;
-  background-image:url('http://res.cloudinary.com/dw2liwt16/image/upload/v1502788870/black-banner-only-city_ymg4qk.png');
-  background-size: no-repeat;
-  background-position: center;
 }
 
 .banner-hello {
