@@ -2,10 +2,8 @@
 // Global variables
 var str = "Hello World! 👾 ";
 var name = "Yuridia Larios";
-var $backImg = $(".banner").css("background-image");
 
 $(".banner-jobTitle").hide();
-$(".banner").css("background-image", "none");
 
 // FUNCTION: Typewriting effect
 function typeWritingEffect(text) {
@@ -26,6 +24,4 @@ function typeWritingEffect(text) {
   setTimeout(function() {
     $(".fly-in-text").removeClass("yellow");
     $("h3").delay(3000).show(0);
-    $(".banner").css("background-image", $backImg);
-
   }, 5700);
