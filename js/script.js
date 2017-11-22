@@ -25,3 +25,16 @@ function typeWritingEffect(text) {
     $(".fly-in-text").removeClass("yellow");
     $("h3").delay(3000).show(0);
   }, 5700);
+
+
+
+var $btns = $('.btn').click(function() {
+  if (this.id == 'all') {
+    $('#parent > div').fadeIn(450);
+  } else {
+    var $el = $('.' + this.id).fadeIn(450);
+    $('#parent > div').not($el).hide();
+  }
+  $btns.removeClass('active');
+  $(this).addClass('active');
+})
