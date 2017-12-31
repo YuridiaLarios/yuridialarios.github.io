@@ -1,3 +1,61 @@
-html{
+body{
   background: gray;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0f2038;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav li {
+    margin-left: 3%;
+    float: left;
+}
+
+nav li a {
+    font-size: 18px;
+    display: block;
+    color: #e6bd2e;
+    text-align: center;
+    padding: 14px 16px;
+    margin: auto 30px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+  color: #47a9aa;
+}
+
+.active {
+  color: #47a9aa;
+}
+
+.logo{
+  width: 70%;
+}
+
+.social {
+  border-radius: 50%;
+  width: 65%;
+  margin-top: 1%;
+  cursor: pointer;
+}
+
+
+.social:hover{
+  opacity: .6;
+}
+
+.two{
+  background-color: #f7f7f7;
+  background-image: -webkit-linear-gradient(140deg, #f7f7f7 50%, #2c3c4d 35%);
+  min-height: 800px;
 }
