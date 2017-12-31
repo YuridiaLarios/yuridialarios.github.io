@@ -1,9 +1,14 @@
+/**********************************
+GENERAL
+***********************************/
 body{
   background: gray;
   margin: 0;
   padding: 0;
 }
-
+/**********************************
+NAVBAR
+***********************************/
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -57,6 +62,9 @@ nav li a:hover{
   opacity: .6;
 }
 
+/**********************************
+ABOUT SECTION
+***********************************/
 .about-section{
   padding: 150px;
   background-color: #f7f7f7;
@@ -151,4 +159,14 @@ nav li a:hover{
   right: -55px;
   font-size: 1.5em;
   color:#e6bd2e;
+}
+
+/**********************************
+FEATURES SECTION
+***********************************/
+.features-section{
+  padding: 150px;
+  background-color: #f7f7f7;
+  background-image: -webkit-linear-gradient(-140deg, #f7f7f7 45%, #2c3c4d 46%);
+  min-height: 500px;
 }
