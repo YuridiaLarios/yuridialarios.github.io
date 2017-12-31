@@ -1,10 +1,42 @@
 /**********************************
 GENERAL
 ***********************************/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 body{
   background: gray;
   margin: 0;
   padding: 0;
+}
+
+.bold-h1{
+  font-weight: bold;
+  font-family:Arial;
+  margin: 0;
+}
+
+.bold-grey-h1{
+  font-weight: bolder;
+  color:#798284;
+  font-size: 3.1em;
+  margin: 0;
+}
+
+.light-h1{
+  font-size: 3.5em;
+  font-weight:lighter;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.light-grey-h1{
+  font-size: 3.5em;
+  font-weight:lighter;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:#e6bd2e;
+  margin: 0;
+}
+
+.small-grey-print{
+  font-size: 1.1em;
+  color:#798284;
 }
 /**********************************
 NAVBAR
@@ -66,25 +98,18 @@ nav li a:hover{
 ABOUT SECTION
 ***********************************/
 .about-section{
-  padding: 150px;
+  padding: 100px;
   background-color: #f7f7f7;
   background-image: -webkit-linear-gradient(140deg, #f7f7f7 45%, #2c3c4d 46%);
-  min-height: 500px;
+  min-height: 650px;
 }
 
 .about-info {
   width: 40%;
   color: white;
+  margin-top: 5%;
 }
 
-.about-info h1{
-  font-size: 3.5em;
-  font-weight:lighter;
-}
-
-.bold-h1{
-  font-weight: bold;
-}
 
 .about-info p {
   font-size: 1.1em;
@@ -165,8 +190,28 @@ ABOUT SECTION
 FEATURES SECTION
 ***********************************/
 .features-section{
-  padding: 150px;
+  padding: 100px;
   background-color: #f7f7f7;
-  background-image: -webkit-linear-gradient(-140deg, #f7f7f7 45%, #2c3c4d 46%);
-  min-height: 500px;
+  background-image: -webkit-linear-gradient(-140deg, #449b82 45%, #f7f7f7 46%);
+  min-height: 650px;
+
+}
+
+.right {
+  width:50%;
+  height: 100px;
+  display:block;
+  float: right;
+ }
+
+.left {
+  width:50%;
+  height: 100px;
+  display:block;
+  float: left;
+}
+
+.nokia-screen-img{
+  width: 85%;
+  border-radius: 30%;
 }
