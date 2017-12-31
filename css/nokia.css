@@ -13,6 +13,8 @@ nav ul {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 60px;
+    z-index: 100;
 }
 
 nav li {
@@ -54,8 +56,70 @@ nav li a:hover{
   opacity: .6;
 }
 
-.two{
+.about-section{
+  padding: 150px;
   background-color: #f7f7f7;
-  background-image: -webkit-linear-gradient(140deg, #f7f7f7 50%, #2c3c4d 35%);
-  min-height: 800px;
+  background-image: -webkit-linear-gradient(140deg, #f7f7f7 45%, #2c3c4d 46%);
+  min-height: 500px;
+}
+
+.about-info {
+  width: 40%;
+  color: white;
+}
+
+.about-info h1{
+  font-size: 3.5em;
+  font-weight:lighter;
+}
+
+.bold-h1{
+  font-weight: bold;
+}
+
+.about-info p {
+  font-size: 1.1em;
+}
+
+
+.button {
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 2%;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: 5px 5px 5px #0f2038;
+  float: left;
+}
+
+.yellow {
+  border: 2px solid #e6bd2e;
+}
+.yellow-text {
+  color:#e6bd2e;
+  text-decoration: none;
+}
+
+
+.aqua{
+  color: #47a9aa;
+  border: 2px solid #47a9aa;
+}
+.aqua-text {
+  color:#47a9aa;
+  text-decoration: none;
+}
+.yellow:hover, .aqua:hover{
+  opacity: .7;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.phone-showcase {
+  position: absolute;
+  width: 28%;
+  top: 15%;
+  right: 1%;
+  z-index: 2;
 }
