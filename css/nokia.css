@@ -18,6 +18,7 @@ nav ul {
 }
 
 nav li {
+    margin-top: .5%;
     margin-left: 3%;
     float: left;
 }
@@ -120,6 +121,34 @@ nav li a:hover{
   position: absolute;
   width: 28%;
   top: 15%;
-  right: 1%;
+  right: 0%;
   z-index: 2;
+}
+.phone-facts {
+  position: absolute;
+  top: 50%;
+  right: 34%;
+  width: 14%;
+}
+
+.phone-facts li{
+  list-style-type: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #838a8c;
+  text-align: right;
+}
+
+.small-print {
+
+  font-size: .7em;
+  font-weight: lighter;
+}
+
+.facts-icons {
+  position: absolute;
+  right: -55px;
+  font-size: 1.5em;
+  color:#e6bd2e;
 }
