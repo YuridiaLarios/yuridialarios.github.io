@@ -3,7 +3,6 @@ GENERAL
 ***********************************/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 body{
-  background: gray;
   margin: 0;
   padding: 0;
 }
@@ -12,7 +11,6 @@ body{
   color: white;
   font-weight: bold;
   font-family:Arial;
-  margin: 0;
 }
 
 .bold-grey-h1{
@@ -26,7 +24,6 @@ body{
   font-weight: bolder;
   color:white;
   font-size: 3.1em;
-  margin: 0;
 }
 
 .light-h1{
@@ -34,7 +31,8 @@ body{
   font-weight:lighter;
   font-family: 'Open Sans Condensed', sans-serif;
 }
-.light-grey-h1{
+
+.light-yellow-h1{
   font-size: 3.5em;
   font-weight:lighter;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -42,23 +40,12 @@ body{
   margin: 0;
 }
 
-.light-white-h1{
-  font-size: 1em;
-  font-weight:lighter;
-  font-family: 'Open Sans Condensed', sans-serif;
-  color:white;
-  margin: 0;
-}
 
-.small-grey-print{
+.small-white-print{
   font-size: 1.3em;
   color:white;
 }
 
-.descriptive-grey{
-  font-size: 1.4em;
-  color: white;
-}
 /**********************************
 NAVBAR
 ***********************************/
