@@ -9,6 +9,7 @@ body{
 }
 
 .bold-h1{
+  color: white;
   font-weight: bold;
   font-family:Arial;
   margin: 0;
@@ -17,6 +18,13 @@ body{
 .bold-grey-h1{
   font-weight: bolder;
   color:#798284;
+  font-size: 3.1em;
+  margin: 0;
+}
+
+.bold-white-h1{
+  font-weight: bolder;
+  color:white;
   font-size: 3.1em;
   margin: 0;
 }
@@ -31,6 +39,14 @@ body{
   font-weight:lighter;
   font-family: 'Open Sans Condensed', sans-serif;
   color:#e6bd2e;
+  margin: 0;
+}
+
+.light-white-h1{
+  font-size: 1em;
+  font-weight:lighter;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:white;
   margin: 0;
 }
 
@@ -192,7 +208,7 @@ FEATURES SECTION
 .features-section{
   padding: 100px;
   background-color: #f7f7f7;
-  background-image: -webkit-linear-gradient(-140deg, #449b82 45%, #f7f7f7 46%);
+  background-image: -webkit-linear-gradient(-140deg, #47a9aa 45%, #f7f7f7 46%);
   min-height: 650px;
 
 }
@@ -202,6 +218,8 @@ FEATURES SECTION
   height: 100px;
   display:block;
   float: right;
+  margin: 0 auto;
+  text-align: center;
  }
 
 .left {
@@ -214,4 +232,38 @@ FEATURES SECTION
 .nokia-screen-img{
   width: 85%;
   border-radius: 30%;
+}
+
+.nokia-games-img{
+  width: 35%;
+  border-radius: 50%;
+}
+.circle {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.medium-circle {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+
+.small-circle {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid white;
 }
