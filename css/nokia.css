@@ -40,7 +40,6 @@ body{
   margin: 0;
 }
 
-
 .small-white-print{
   font-size: 1.3em;
   color:white;
@@ -97,7 +96,6 @@ nav li a:hover{
   cursor: pointer;
 }
 
-
 .social:hover{
   opacity: .6;
 }
@@ -120,7 +118,7 @@ ABOUT SECTION
 
 
 .about-info p {
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 
@@ -143,7 +141,6 @@ ABOUT SECTION
   text-decoration: none;
 }
 
-
 .aqua{
   color: #47a9aa;
   border: 2px solid #47a9aa;
@@ -165,6 +162,7 @@ ABOUT SECTION
   right: 0%;
   z-index: 2;
 }
+
 .phone-facts {
   position: absolute;
   top: 50%;
@@ -182,7 +180,6 @@ ABOUT SECTION
 }
 
 .small-print {
-
   font-size: .7em;
   font-weight: lighter;
 }
