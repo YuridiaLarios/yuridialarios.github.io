@@ -199,7 +199,6 @@ FEATURES SECTION
   background-color: #f7f7f7;
   background-image: -webkit-linear-gradient(-140deg, #f7f7f7 45%, #2c3c4d 46%);
   min-height: 650px;
-
 }
 
 .right {
@@ -207,8 +206,8 @@ FEATURES SECTION
   height: 100px;
   display:block;
   float: right;
-  margin: 0 auto;
-  text-align: center;
+  margin: 0 7% 0;
+  text-align: right;
  }
 
 .left {
@@ -216,9 +215,7 @@ FEATURES SECTION
   height: 100px;
   display:block;
   float: left;
-}
-
-.left-side-position{
+  margin: 0 auto;
 }
 
 .nokia-screen-img{
@@ -262,6 +259,9 @@ FEATURES SECTION
 }
 
 
+/**********************************
+VIDEO SECTION
+***********************************/
 
 .video-section{
   padding: 70px;
