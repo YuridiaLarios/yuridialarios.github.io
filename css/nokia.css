@@ -17,7 +17,7 @@ body{
 
 .bold-grey-h1{
   font-weight: bolder;
-  color:#798284;
+  color:grey;
   font-size: 3.1em;
   margin: 0;
 }
@@ -51,8 +51,13 @@ body{
 }
 
 .small-grey-print{
-  font-size: 1.1em;
-  color:#798284;
+  font-size: 1.3em;
+  color:white;
+}
+
+.descriptive-grey{
+  font-size: 1.4em;
+  color: white;
 }
 /**********************************
 NAVBAR
@@ -114,7 +119,7 @@ nav li a:hover{
 ABOUT SECTION
 ***********************************/
 .about-section{
-  padding: 100px;
+  padding: 70px;
   background-color: #f7f7f7;
   background-image: -webkit-linear-gradient(140deg, #f7f7f7 45%, #2c3c4d 46%);
   min-height: 650px;
@@ -206,9 +211,9 @@ ABOUT SECTION
 FEATURES SECTION
 ***********************************/
 .features-section{
-  padding: 100px;
+  padding: 70px;
   background-color: #f7f7f7;
-  background-image: -webkit-linear-gradient(-140deg, #47a9aa 45%, #f7f7f7 46%);
+  background-image: -webkit-linear-gradient(-140deg, #f7f7f7 45%, #2c3c4d 46%);
   min-height: 650px;
 
 }
@@ -229,8 +234,12 @@ FEATURES SECTION
   float: left;
 }
 
+.left-side-position{
+}
+
 .nokia-screen-img{
-  width: 85%;
+  display: inline;
+  width: 45%;
   border-radius: 30%;
 }
 
@@ -266,4 +275,25 @@ FEATURES SECTION
   margin: 0 auto;
   border-radius: 50%;
   border: 1px solid white;
+}
+
+
+
+.video-section{
+  padding: 70px;
+  background-color: #f7f7f7;
+  background-image: -webkit-linear-gradient(140deg, #f7f7f7 45%, #2c3c4d 46%);
+  min-height: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+  margin: 2% auto;
 }
