@@ -281,3 +281,37 @@ VIDEO SECTION
   border-top: 10px solid white;
   margin: 2% auto;
 }
+
+/**********************************
+MEDIA QUERY SCREEN: 1024px
+***********************************/
+@media screen and (max-width: 1024px) {
+  /**********************************
+  NAVBAR
+  ***********************************/
+  nav li {
+      margin-top:.7%;
+      margin-left: 1.5%;
+  }
+
+  /**********************************
+  NAVBAR
+  ***********************************/
+  .about-info {
+    width: 52%;
+  }
+
+  /**********************************
+  ABOUT SECTION
+  ***********************************/
+
+  .about-info p {
+    font-size: 1.3em;
+  }
+
+  .button {
+    width: 31%;
+    padding: 10px;
+  }
+
+}
