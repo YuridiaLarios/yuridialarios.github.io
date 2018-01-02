@@ -53,7 +53,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #0f2038;
+    background-color: #0e172b;
     position: fixed;
     top: 0;
     width: 100%;
@@ -63,7 +63,7 @@ nav ul {
 
 nav li {
     margin-top: .5%;
-    margin-left: 3%;
+    margin-left: 5.5%;
     float: left;
 }
 
@@ -87,6 +87,7 @@ nav li a:hover{
 
 .logo{
   width: 70%;
+  padding-top: 4%;
 }
 
 .social {
