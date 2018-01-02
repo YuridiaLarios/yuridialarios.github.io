@@ -329,7 +329,7 @@ MEDIA QUERY SCREEN: 1007px to 1130px
 }
 
 /**********************************
-MEDIA QUERY SCREEN: 774px to 1007px
+MEDIA QUERY SCREEN: 680px to 1007px
 ***********************************/
 @media screen and (max-width: 1007px) {
   /**********************************
@@ -481,10 +481,182 @@ MEDIA QUERY SCREEN: 774px to 1007px
   }
 }
 
+
+
+
+
+
 /**********************************
-MEDIA QUERY SCREEN: 400px to 600px
+MEDIA QUERY SCREEN: 500px to 680px
 ***********************************/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
+
+  /**********************************
+  ABOUT SECTION
+  ***********************************/
+  .about-section{
+    padding: 25px;
+    background-image: -webkit-linear-gradient(90deg, #2c3c4d 0%, #2c3c4d 100%);
+    min-height: 900px;
+  }
+
+  .about-info {
+    width: 100%;
+    color: white;
+  }
+
+
+  .about-info p {
+    font-size: 1em;
+    margin-top: 60%;
+    text-align: justify;
+  }
+
+
+  .button {
+    width: 30%;
+    margin-left: 8%;
+  }
+
+  .phone-showcase {
+    width: 40%;
+    top: 100px;
+
+  }
+
+  .phone-facts {
+    position: absolute;
+    top: 320px;
+    right: 55%;
+    width: 50%;
+  }
+
+  .phone-facts li{
+    font-size: 1.2em;
+    text-align: right;
+    margin-bottom: 30px;
+  }
+
+  .facts-icons {
+    position: absolute;
+    left: 2px;
+    font-size: 1.1em;
+    color:#e6bd2e;
+  }
+
+  .main-cellphone{
+    width: 95%;
+  }
+  h1{
+    margin-top: 100px;
+  }
+  .bold-h1{
+    font-size: .7em;
+  }
+  /**********************************
+  FEATURES SECTION
+  ***********************************/
+  .features-section{
+    padding: 10px;
+    background-image: -webkit-linear-gradient(-90deg, #f7f7f7 39.5%, #2c3c4d 40.5%);
+    min-height: 1100px;
+  }
+
+  .right {
+    position: absolute;
+   }
+
+  .left {
+    display:block;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    margin-left: 16%;
+    margin-top: 500px;
+  }
+
+  .nokia-screen-img{
+    position: absolute;
+    top: 0px;
+    width: 74%;
+  }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .nokia-games-img{
+    width: 34%;
+  }
+
+  .small-grey-h1, .small-yellow-h1 {
+    font-size: 2em;
+    margin: 10px;
+    margin-bottom: 0px;
+  }
+
+  .small-bold-h1 {
+    margin-top: 30px;
+    font-size: 1em;
+  }
+
+  /**********************************
+  VIDEO SECTION
+  ***********************************/
+
+  .video-section{
+    padding: 30px;
+    background-color: #f7f7f7;
+    background-image: -webkit-linear-gradient(140deg, #f7f7f7 45%, #f7f7f7 46%);
+    min-height: 550px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .bold-white-h1, .small-grey-h1, .small-white-print {
+    color: grey;
+  }
+
+  .white-color{
+    color: white;
+  }
+
+  .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid grey;
+    margin: 2% auto;
+  }
+
+  .small-screen{
+    display:block;
+    margin: 0 auto;
+  }
+
+  .medium-screen{
+    display:none;
+  }
+
+  .large-screen{
+    display:none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+/**********************************
+MEDIA QUERY SCREEN: 375px to 500px
+***********************************/
+@media screen and (max-width: 500px) {
   /**********************************
   NAVBAR
   ***********************************/
@@ -568,7 +740,7 @@ MEDIA QUERY SCREEN: 400px to 600px
   ***********************************/
   .features-section{
     padding: 10px;
-    background-image: -webkit-linear-gradient(-90deg, #f7f7f7 35.5%, #2c3c4d 36.5%);
+    background-image: -webkit-linear-gradient(-90deg, #f7f7f7 39.5%, #2c3c4d 40.5%);
     min-height: 900px;
   }
 
@@ -582,13 +754,14 @@ MEDIA QUERY SCREEN: 400px to 600px
     width: 100%;
     float: left;
     margin: 0 auto;
+    margin-left: 4%;
     margin-top: 370px;
   }
 
   .nokia-screen-img{
     position: absolute;
     top: 0px;
-    width: 85%;
+    width: 80%;
   }
 
   .circle {
@@ -607,7 +780,7 @@ MEDIA QUERY SCREEN: 400px to 600px
   }
 
   .small-bold-h1 {
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 1em;
   }
 
