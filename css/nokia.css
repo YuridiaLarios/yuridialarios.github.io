@@ -283,9 +283,9 @@ VIDEO SECTION
 }
 
 /**********************************
-MEDIA QUERY SCREEN: 1024px
+MEDIA QUERY SCREEN: 1130px
 ***********************************/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1130px) {
   /**********************************
   NAVBAR
   ***********************************/
