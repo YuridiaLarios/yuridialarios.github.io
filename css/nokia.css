@@ -294,6 +294,9 @@ MEDIA QUERY SCREEN: 1024px
       margin-left: 1.5%;
   }
 
+  .logo {
+    padding-top: 6%;
+  }
   /**********************************
   NAVBAR
   ***********************************/
@@ -314,4 +317,41 @@ MEDIA QUERY SCREEN: 1024px
     padding: 10px;
   }
 
+}
+
+/**********************************
+MEDIA QUERY SCREEN: 960px
+***********************************/
+@media screen and (max-width: 960px) {
+  /**********************************
+  NAVBAR
+  ***********************************/
+  nav li {
+      margin-top:.7%;
+      margin-left: 0%;
+  }
+
+  nav li a {
+      padding: 18px 1px;
+  }
+
+  /**********************************
+  NAVBAR
+  ***********************************/
+  .about-info {
+    width: 52%;
+  }
+
+  /**********************************
+  ABOUT SECTION
+  ***********************************/
+
+  .about-info p {
+    font-size: 1.3em;
+  }
+
+  .button {
+    width: 31%;
+    padding: 10px;
+  }
 }
