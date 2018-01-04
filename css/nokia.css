@@ -827,3 +827,155 @@ MEDIA QUERY SCREEN: 375px to 500px
   }
 
 }
+
+
+
+
+
+
+/**********************************
+MEDIA QUERY SCREEN: 300px to 374px
+***********************************/
+@media screen and (max-width: 374px) {
+  /**********************************
+  NAVBAR
+  ***********************************/
+
+
+  /**********************************
+  ABOUT SECTION
+  ***********************************/
+  .about-section{
+    padding: 2px;
+  }
+
+  .about-info {
+    width: 100%;
+    color: white;
+  }
+
+
+  .about-info p {
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 80%;
+    text-align: justify;
+  }
+
+
+  .button {
+    width: 35%;
+    margin-left: 4%;
+  }
+
+
+  .phone-facts {
+    position: absolute;
+    top: 300px;
+    right: 45%;
+    width: 50%;
+  }
+
+  .main-cellphone{
+    width: 95%;
+  }
+  h1{
+    margin-top: 100px;
+  }
+  .bold-h1{
+    font-size: .7em;
+  }
+  /**********************************
+  FEATURES SECTION
+  ***********************************/
+  .features-section{
+    padding: 5px;
+    background-image: -webkit-linear-gradient(-90deg, #f7f7f7 39.5%, #2c3c4d 40.5%);
+    min-height: 900px;
+  }
+
+  .right {
+    position: absolute;
+    margin: 0;
+    padding: 0px;
+    margin-top: 40px;
+   }
+
+  .left {
+    display:block;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    margin-left: .2%;
+    margin-top: 370px;
+  }
+
+  .nokia-screen-img{
+    position: absolute;
+    top: 0px;
+    width: 83%;
+  }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .nokia-games-img{
+    width: 42%;
+  }
+
+  .small-grey-h1, .small-yellow-h1 {
+    font-size: 1.6em;
+    margin: 10px;
+    margin-bottom: 0px;
+  }
+
+  .small-bold-h1 {
+    margin-top: 30px;
+    font-size: .9em;
+  }
+
+  /**********************************
+  VIDEO SECTION
+  ***********************************/
+
+  .video-section{
+    padding: 5px;
+    background-color: #f7f7f7;
+    background-image: -webkit-linear-gradient(140deg, #f7f7f7 45%, #f7f7f7 46%);
+    min-height: 550px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .bold-white-h1, .small-grey-h1, .small-white-print {
+    color: grey;
+  }
+
+  .white-color{
+    color: white;
+  }
+
+  .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid grey;
+    margin: 2% auto;
+  }
+
+  .small-screen{
+    display:block;
+    margin: 0 auto;
+  }
+
+  .medium-screen{
+    display:none;
+  }
+
+  .large-screen{
+    display:none;
+  }
+
+}
