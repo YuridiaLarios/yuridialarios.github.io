@@ -840,6 +840,61 @@ MEDIA QUERY SCREEN: 300px to 374px
   /**********************************
   NAVBAR
   ***********************************/
+  nav {
+    overflow: hidden;
+  }
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #0e172b;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 60px;
+      z-index: 100;
+  }
+
+  nav li {
+      margin-top: .5%;
+      margin-left: 5.5%;
+      float: left;
+  }
+
+  nav li a {
+      font-size: 18px;
+      display: block;
+      color: #e6bd2e;
+      text-align: center;
+      padding: 14px 16px;
+      margin: auto 30px;
+      text-decoration: none;
+  }
+
+  nav li a:hover{
+    color: #47a9aa;
+  }
+
+  .active {
+    color: #47a9aa;
+  }
+
+  .logo{
+    width: 70%;
+    padding-top: 4%;
+  }
+
+  .social {
+    border-radius: 50%;
+    width: 65%;
+    margin-top: 1%;
+    cursor: pointer;
+  }
+
+  .social:hover{
+    opacity: .6;
+  }
 
 
   /**********************************
