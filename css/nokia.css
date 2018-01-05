@@ -52,6 +52,9 @@ NAVBAR
   overflow: hidden;
   background-color: #0e172b;
   height: 72px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 .topnav a {
@@ -469,14 +472,44 @@ MEDIA QUERY SCREEN: below 777px navbar
   /**********************************
   NAVBAR
   ***********************************/
+  .topnav {
+    height: auto;
+  }
 
-  .topnav a {
-    margin: auto 10px;
-    margin-top: 10px;
-    padding: 14px 16px;
+  .topnav a:not(:first-child) {display: none;}
+
+  .topnav a.icon {
+  float: right;
+  display: block;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 3%;
+  }
+
+  .topnav.responsive a {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    float: none;
+    text-align: center;
+  }
+
+  .topnav.responsive a:hover:not(:first-child) {
+    background-color: black;
+  }
+
+  .topnav .social {
+    border-radius: 50%;
+    width: 8%;
   }
 
 
+
+}
 
 
 
