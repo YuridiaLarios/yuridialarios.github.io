@@ -84,6 +84,10 @@ nav li a:hover{
   color: #47a9aa;
 }
 
+.topnav .icon {
+  display: none;
+}
+
 .active {
   color: #47a9aa;
 }
