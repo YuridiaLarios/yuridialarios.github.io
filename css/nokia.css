@@ -506,9 +506,6 @@ MEDIA QUERY SCREEN: below 777px navbar
     border-radius: 50%;
     width: 8%;
   }
-
-
-
 }
 
 
@@ -996,4 +993,12 @@ MEDIA QUERY SCREEN: 300px to 374px
     display:none;
   }
 
+}
+
+/*Ipad pro: needed different measures for phone facts. */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px)
+{
+  .phone-facts {
+    top: 26%;
+  }
 }
