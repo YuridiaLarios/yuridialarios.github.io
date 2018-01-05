@@ -82,6 +82,11 @@ NAVBAR
   margin-top: 0px;
 }
 
+.topnav .social {
+  border-radius: 50%;
+  width: 75%;
+}
+
 
 /**********************************
 ABOUT SECTION
