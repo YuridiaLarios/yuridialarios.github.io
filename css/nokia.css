@@ -48,14 +48,40 @@ body{
 /**********************************
 NAVBAR
 ***********************************/
-.topnav{
-  height: 60px;
-  background-color: blue;
+.topnav {
+  overflow: hidden;
+  background-color: #0e172b;
+  height: 72px;
 }
-.topnav .social{
-  border-radius: 50%;
-  width: 75%;
+
+.topnav a {
+  float: left;
+  display: block;
+  margin: auto 60px;
+  margin-top: 10px;
+  color: #e6b936;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
 }
+
+.topnav a:hover {
+  color: #47a9aa;
+}
+
+.topnav .active {
+  color: #47a9aa;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav .logo {
+  margin-top: 0px;
+}
+
 
 /**********************************
 ABOUT SECTION
