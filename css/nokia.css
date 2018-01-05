@@ -48,39 +48,29 @@ body{
 /**********************************
 NAVBAR
 ***********************************/
-myTopnav {
+.topnav {
   overflow: hidden;
+  background-color: #0e172b;
+  height: 72px;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #0e172b;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 60px;
-    z-index: 100;
+.topnav a {
+  float: left;
+  display: block;
+  margin: auto 60px;
+  margin-top: 10px;
+  color: #e6b936;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
 }
 
-nav li {
-    margin-top: .5%;
-    margin-left: 5.5%;
-    float: left;
+.topnav a:hover {
+  color: #47a9aa;
 }
 
-nav li a {
-    font-size: 18px;
-    display: block;
-    color: #e6bd2e;
-    text-align: center;
-    padding: 14px 16px;
-    margin: auto 30px;
-    text-decoration: none;
-}
-
-nav li a:hover{
+.topnav .active {
   color: #47a9aa;
 }
 
@@ -88,24 +78,13 @@ nav li a:hover{
   display: none;
 }
 
-.active {
-  color: #47a9aa;
+.topnav .logo {
+  margin-top: 0px;
 }
 
-.logo{
-  width: 70%;
-  padding-top: 4%;
-}
-
-.social {
+.topnav .social{
   border-radius: 50%;
-  width: 65%;
-  margin-top: 1%;
-  cursor: pointer;
-}
-
-.social:hover{
-  opacity: .6;
+  width: 75%;
 }
 
 /**********************************
@@ -305,14 +284,11 @@ MEDIA QUERY SCREEN: 1007px to 1130px
   /**********************************
   NAVBAR
   ***********************************/
-  nav li {
-      margin-top:.7%;
-      margin-left: 1.5%;
-  }
-
-  .logo {
-    padding-top: 6%;
-  }
+    .topnav a {
+      margin: auto 30px;
+      margin-top: 10px;
+      padding: 14px 16px;
+    }
   /**********************************
   NAVBAR
   ***********************************/
@@ -342,26 +318,21 @@ MEDIA QUERY SCREEN: 680px to 1007px
   /**********************************
   NAVBAR
   ***********************************/
-  nav li {
-      margin-top:.5%;
-      margin-left: 0%;
-  }
 
-  nav li a {
-      padding: 18px 1px;
+  .topnav a {
+    margin: auto 10px;
+    margin-top: 10px;
+    padding: 14px 16px;
   }
-
-  /**********************************
-  NAVBAR
-  ***********************************/
-  .about-info {
-    width: 52%;
-  }
-
 
   /**********************************
   ABOUT SECTION
   ***********************************/
+
+  .about-info {
+    width: 52%;
+  }
+
   .about-section{
     padding: 30px;
     background-image: -webkit-linear-gradient(170deg, #f7f7f7 45.5%, #2c3c4d 46.5%);
@@ -487,6 +458,22 @@ MEDIA QUERY SCREEN: 680px to 1007px
     margin: 0 auto;
   }
 }
+
+
+
+/**********************************
+MEDIA QUERY SCREEN: below 777px navbar
+***********************************/
+@media screen and (max-width: 777px) {
+  /**********************************
+  NAVBAR
+  ***********************************/
+
+  .topnav a {
+    margin: auto 10px;
+    margin-top: 10px;
+    padding: 14px 16px;
+  }
 
 
 
@@ -667,18 +654,7 @@ MEDIA QUERY SCREEN: 375px to 500px
   /**********************************
   NAVBAR
   ***********************************/
-  nav{
-    width: 100%;
-  }
 
-  nav li {
-      margin-top:.5%;
-      margin-left: 0%;
-  }
-
-  nav li a {
-      padding: 18px 1px;
-  }
 
   /**********************************
   ABOUT SECTION
@@ -847,61 +823,7 @@ MEDIA QUERY SCREEN: 300px to 374px
   /**********************************
   NAVBAR
   ***********************************/
-  nav {
-    overflow: hidden;
-  }
-  nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #0e172b;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      height: 60px;
-      z-index: 100;
-  }
 
-  nav li {
-      margin-top: .5%;
-      margin-left: 5.5%;
-      float: left;
-  }
-
-  nav li a {
-      font-size: 18px;
-      display: block;
-      color: #e6bd2e;
-      text-align: center;
-      padding: 14px 16px;
-      margin: auto 30px;
-      text-decoration: none;
-  }
-
-  nav li a:hover{
-    color: #47a9aa;
-  }
-
-  .active {
-    color: #47a9aa;
-  }
-
-  .logo{
-    width: 70%;
-    padding-top: 4%;
-  }
-
-  .social {
-    border-radius: 50%;
-    width: 65%;
-    margin-top: 1%;
-    cursor: pointer;
-  }
-
-  .social:hover{
-    opacity: .6;
-  }
 
 
   /**********************************
