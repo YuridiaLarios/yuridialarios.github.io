@@ -48,7 +48,10 @@ body{
 /**********************************
 NAVBAR
 ***********************************/
-
+.topnav{
+  height: 60px;
+  background-color: blue;
+}
 .topnav .social{
   border-radius: 50%;
   width: 75%;
