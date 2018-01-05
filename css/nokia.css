@@ -48,11 +48,14 @@ body{
 /**********************************
 NAVBAR
 ***********************************/
+myTopnav {
+  overflow: hidden;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #0e172b;
     position: fixed;
     top: 0;
