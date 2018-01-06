@@ -1005,3 +1005,10 @@ MEDIA QUERY SCREEN: 300px to 374px
     top: 26%;
   }
 }
+
+
+@media only screen and (min-device-width : 300px) {
+  body{
+    display: none;
+  }
+}
