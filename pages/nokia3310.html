@@ -130,10 +130,10 @@ $.fn.pageScroller = function( options ){
 				top = $(this).offset().top,
 				secHeight = $(this).outerHeight();
 
-			if ( top <= wScroll && (top  + secHeight) > wScroll) {
+			if ( top <= wScroll && (top + secHeight) > wScroll) {
 				settings.links.removeClass(settings.navActiveClass);
 				settings.nav.find('a[href="#'+ id +'"]').addClass(settings.navActiveClass);
-			} 
+			}
 		});
 	});
 };

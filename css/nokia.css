@@ -100,7 +100,7 @@ ABOUT SECTION
   padding: 70px;
   background-color: #f7f7f7;
   background-image: -webkit-linear-gradient(140deg, #f7f7f7 45%, #2c3c4d 46%);
-  min-height: 650px;
+  min-height: 665px;
 }
 
 .about-info {
@@ -191,7 +191,7 @@ FEATURES SECTION
   padding: 70px;
   background-color: #f7f7f7;
   background-image: -webkit-linear-gradient(-140deg, #f7f7f7 45%, #2c3c4d 46%);
-  min-height: 650px;
+  min-height: 665px;
 }
 
 .right {
@@ -260,7 +260,7 @@ VIDEO SECTION
   padding: 70px;
   background-color: #f7f7f7;
   background-image: -webkit-linear-gradient(140deg, #f7f7f7 45%, #2c3c4d 46%);
-  min-height: 650px;
+  min-height: 665px;
   margin: 0 auto;
   text-align: center;
 }
@@ -640,6 +640,7 @@ MEDIA QUERY SCREEN: 500px to 680px
     margin: 0 auto;
     text-align: center;
   }
+
   .bold-white-h1, .small-grey-h1, .small-white-print {
     color: grey;
   }
