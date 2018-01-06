@@ -14,12 +14,12 @@
     <nav role='navigation'>
       <div class="topnav" id="myTopnav">
           <a class="logo" href="nokia3310.html"><img src="../images/nokialogo.png" alt="nokia3310 logo"></a>
-          <a href="#about" class="active">ABOUT</a>
-          <a href="#features">FEATURES</a>
-          <a href="#demo">DEMO</a>
-          <!-- <a href="https://www.facebook.com/NokiamobileUS/?brand_redir=296782794170581" target="_blank"><img class="social" src="../images/fb-icon.png" alt="facebbok logo link"></a>
+          <a href="#about" class="active nav-link">ABOUT</a>
+          <a href="#features" class="nav-link">FEATURES</a>
+          <a href="#demo" class="nav-link">DEMO</a>
+          <a href="https://www.facebook.com/NokiamobileUS/?brand_redir=296782794170581" target="_blank"><img class="social" src="../images/fb-icon.png" alt="facebbok logo link"></a>
           <a href="https://twitter.com/nokia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img class="social" src="../images/twitter-icon2.png" alt="twitter logo link"></a>
-          <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a> -->
+          <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
     </nav>
   </header>
@@ -99,7 +99,7 @@ $.fn.pageScroller = function( options ){
 
 	var settings = $.extend({
 		nav: 				$(this),
-		links: 				$(this).find('a'),
+		links: 				$(this).find('.nav-link'),
 		navActiveClass:		'active',
 		scrollContainer: 	$('html, body'),
 		scrollSpeed:		1500,
@@ -125,24 +125,15 @@ $.fn.pageScroller = function( options ){
 
 	$(window).on('scroll', function(){
 		var wScroll = $(window).scrollTop() + settings.navHeight;
-    console.log("nav-height = " + settings.navHeight);
-    console.log("wScroll = " + wScroll);
 		settings.section.each( function( index ) {
 			var id = $(this).attr('id'),
 				top = $(this).offset().top,
 				secHeight = $(this).outerHeight();
-        console.log("current id = " + id);
-        console.log("current top = " + top);
-        console.log("current secHeight = " + secHeight);
 
 			if ( top <= wScroll && (top  + secHeight) > wScroll) {
 				settings.links.removeClass(settings.navActiveClass);
 				settings.nav.find('a[href="#'+ id +'"]').addClass(settings.navActiveClass);
-        console.log("YESSSSSSSSSSSSSSSSSSSSSSSS");
-        console.log("a[href='#"+ id );
-			} else{
-        console.log("NOTHING HAPPENING");
-      }
+			} 
 		});
 	});
 };
