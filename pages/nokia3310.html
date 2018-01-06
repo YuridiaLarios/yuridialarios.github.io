@@ -7,22 +7,23 @@
   <link rel="stylesheet" href="../css/nokia.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
   <header>
-    <nav>
+    <nav role='navigation'>
       <div class="topnav" id="myTopnav">
           <a class="logo" href="nokia3310.html"><img src="../images/nokialogo.png" alt="nokia3310 logo"></a>
-          <a class="active" id="myAbout" href="nokia3310.html">ABOUT</a>
+          <a href="#myAbout" class="active">ABOUT</a>
           <a href="#myFeatures">FEATURES</a>
           <a href="#myDemo">DEMO</a>
-          <a href="https://www.facebook.com/NokiamobileUS/?brand_redir=296782794170581" target="_blank"><img class="social" src="../images/fb-icon.png" alt="facebbok logo link"></a>
+          <!-- <a href="https://www.facebook.com/NokiamobileUS/?brand_redir=296782794170581" target="_blank"><img class="social" src="../images/fb-icon.png" alt="facebbok logo link"></a>
           <a href="https://twitter.com/nokia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img class="social" src="../images/twitter-icon2.png" alt="twitter logo link"></a>
-          <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
+          <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a> -->
       </div>
     </nav>
   </header>
-  <section>
+  <section id="about">
     <div class="about-section" id="myAbout">
       <div class="about-info">
         <h1 class="light-h1"><span class="bold-h1">A BRICK BUILT</span><br> FOR PASSIONATE <br> PEOPLE. </h1>
@@ -44,7 +45,7 @@
       </div>
     </div>
   </section>
-  <section>
+  <section id="features">
     <div class="features-section" id="myFeatures">
       <div class="right">
         <h1 class="bold-grey-h1 small-grey-h1">MAKE YOUR <br>LIFE SIMPLER</h1>
@@ -69,7 +70,7 @@
       </div>
     </div>
   </section>
-  <section>
+  <section id="demo">
     <div class="video-section" id="myDemo">
       <h1 class="bold-white-h1 small-grey-h1">WATCH DEMO</h1>
       <div class="arrow-down"></div>
@@ -82,6 +83,9 @@
   <footer>
   </footer>
   <script>
+  /**
+   * This function shows the hamburger icon for responsive small devices.
+   */
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -90,6 +94,42 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+
+$.fn.pageScroller = function( options ){
+
+	var settings = $.extend({
+		nav: 				$(this),
+		links: 				$(this).find('a'),
+		navActiveClass:		'active',
+		scrollContainer: 	$('html, body'),
+		scrollSpeed:		1500,
+		section: 			$('section'),
+		navHeight: 			$(this).outerHeight()
+	}, options);
+
+	settings.links.each(function(){
+		var link = $(this),
+			href = link.attr('href'),
+			target = $(href);
+
+		link.on('click', function( e ){
+			e.preventDefault();
+			settings.links.removeClass(settings.navActiveClass);
+			link.addClass(settings.navActiveClass);
+			settings.scrollContainer.stop().animate({
+				scrollTop: target.offset().top - settings.navHeight
+			}, settings.scrollSpeed);
+		});
+
+	});
+
+};
+
+$(document).ready(function(){
+	$('nav').pageScroller({
+	});
+});
+
 
 </script>
 </body>
