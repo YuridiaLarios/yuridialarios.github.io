@@ -284,7 +284,7 @@ VIDEO SECTION
 }
 
 /**********************************
-MEDIA QUERY SCREEN: 1007px to 1130px
+MEDIA QUERY SCREEN: 1016px to 1130px
 ***********************************/
 @media screen and (max-width: 1370px) {
   /**********************************
@@ -295,16 +295,15 @@ MEDIA QUERY SCREEN: 1007px to 1130px
       margin-top: 10px;
       padding: 14px 16px;
     }
-  /**********************************
-  NAVBAR
-  ***********************************/
-  .about-info {
-    width: 52%;
-  }
 
   /**********************************
   ABOUT SECTION
   ***********************************/
+
+  .about-info {
+    width: 52%;
+  }
+
 
   .about-info p {
     font-size: 1.3em;
