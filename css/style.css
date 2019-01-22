@@ -1,0 +1,104 @@
+.banner {
+  font-family: sans-serif;
+  color: #f0eef0;
+}
+
+.banner-hello {
+  text-align: center;
+  margin-top: 15vh;
+  font-size: 10rem;
+  font-weight: 300;
+  height: 600px;
+}
+
+.jumbotron {
+  height: 650px;
+}
+
+
+.banner-jobTitle {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-weight: 300;
+}
+
+.banner-yuri-photo {
+  width: 15%;
+  border-radius: 50%;
+  border: 10px solid white;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+
+.fly-in-text {
+  list-style: none;
+  position: absolute;
+  left: 48.5%;
+  top: 25%;
+  -webkit-transform: translateX(-50%) translateY(-40%);
+  -moz-transform: translateX(-50%) translateY(-40%);
+  -ms-transform: translateX(-50%) translateY(-40%);
+  -o-transform: translateX(-50%) translateY(-40%);
+  transform: translateX(-50%) translateY(-40%);
+}
+
+
+
+.fly-in-text li {
+  display: inline-block;
+  margin-right: 20px;
+  font-family: "Open Sans", "Arial";
+  font-size: 7em;
+  color: #f0eef0;
+  opacity: 1;
+  transition: all 2.5s ease;
+}
+
+.fly-in-text li:last-child {
+  margin-right: 0;
+}
+
+.yellow {
+  opacity: 0;
+}
+
+.fly-in-text.yellow li:nth-child(1) {
+  transform: translateX(-200px) translateY(-200px);
+}
+
+.fly-in-text.yellow li:nth-child(2) {
+  transform: translateX(20px) translateY(100px);
+}
+
+.fly-in-text.yellow li:nth-child(3) {
+  transform: translateX(-150px) translateY(-80px);
+}
+
+.fly-in-text.yellow li:nth-child(4) {
+  transform: translateX(10px) translateY(-200px);
+}
+
+.fly-in-text.yellow li:nth-child(5) {
+  transform: translateX(-300px) translateY(200px);
+}
+
+.fly-in-text.yellow li:nth-child(6) {
+  transform: translateX(20px) translateY(-20px);
+}
+
+.fly-in-text.yellow li:nth-child(7) {
+  transform: translateX(30px) translateY(200px);
+}
