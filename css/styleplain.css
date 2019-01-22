@@ -9,7 +9,9 @@ NAVBAR
 /**********************************
 HEADING: BANNER
 ***********************************/
-
+.portfolio-section {
+  margin-top: 1900px;
+}
 
 .banner {
   position: relative;
