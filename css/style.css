@@ -4,8 +4,6 @@
   color: #f0eef0;
 }
 
-
-
 .fly-in-text li {
   display: inline-block;
   margin-right: 20px;
@@ -14,4 +12,32 @@
   color: #f0eef0;
   opacity: 1;
   transition: all 2.5s ease;
+}
+
+
+body {
+  padding: 50px auto;
+}
+
+.infocard {
+  width: 100%;
+  height: calc(400/16*8px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+
+}
+
+
+.thumbnail {
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom: 6%;
+  padding: 0px;
+  height: 370px;
+}
+
+.caption {
+  padding: 2%;
 }
