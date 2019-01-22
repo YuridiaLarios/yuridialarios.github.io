@@ -4,6 +4,13 @@
   color: #f0eef0;
 }
 
+.banner-yuri-photo {
+  width: 220px;
+  margin-top: 125px;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+
 .fly-in-text li {
   display: inline-block;
   margin-right: 20px;
@@ -11,12 +18,12 @@
   font-size: 7em;
   color: #f0eef0;
   opacity: 1;
-  transition: all 2.5s ease;
+  margin-top: 100px;
 }
 
 
-body {
-  padding: 50px auto;
+.portfolio-section {
+  margin-top: 150px;
 }
 
 .infocard {
