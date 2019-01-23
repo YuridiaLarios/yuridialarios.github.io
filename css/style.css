@@ -22,9 +22,12 @@
 }
 
 
+
 .portfolio-section {
   margin-top: 150px;
 }
+
+
 
 .infocard {
   width: 100%;
@@ -33,18 +36,66 @@
   background-position: center;
   background-size: cover;
   background-color: white;
-
 }
 
 
 .thumbnail {
-  background-color: white;
-  border-radius: 4px;
-  margin-bottom: 6%;
+  border-radius: 2px;
+  margin-bottom: 20%;
   padding: 0px;
-  height: 370px;
+  height: 330px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .caption {
   padding: 2%;
+}
+
+.about-contact {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.about-section {
+  width: 100%;
+}
+
+.about-skills {
+  height: 20%;
+  width: 80%;
+  text-align: center;
+  padding: 5%;
+  border-radius: 2%;
+  float: left;
+}
+
+.about-skills-icons {
+  width: 14%;
+  height: 14%;
+}
+
+
+
+.contact-info-container li {
+  list-style: none;
+  /*removes bullet points from li*/
+  margin: 6% 3%;
+}
+
+.contact-info-container li a {
+  color: #696969;
+  text-decoration: none;
+  font-size: 19px;
+  letter-spacing: 0.1px;
+}
+
+.contact-info-container li:hover {
+  transform: scale(1.01);
+}
+
+.contact-info-container li a:hover {
+  cursor: pointer;
+}
+
+.fa {
+  margin-right: 5%;
 }
