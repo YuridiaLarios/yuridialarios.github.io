@@ -53,10 +53,10 @@
       <div class="right-menu">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="#about-menu">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#home-menu">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio-menu">Work</a>
+            <a class="nav-link" href="#work-menu">Work</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about-menu">About</a>
@@ -71,7 +71,7 @@
 
 
   <!-- Jumbotron/Banner -->
-  <div class="jumbotron jumbotron-fluid banner mb-0 text-center" style="background-color: #000000;">
+  <div id="home-menu" class="jumbotron jumbotron-fluid banner mb-0 text-center" style="background-color: #000000;">
     <h1 class="banner-hello"></h1>
     <h2></h2>
     <ul class="fly-in-text yellow">
@@ -83,10 +83,9 @@
       <li>I</li>
       <li>A</li>
     </ul>
-    <h3 class="banner-jobTitle">#WEB DEVELOPER</h3>
+    <h3 class="banner-jobTitle"># WEB DEVELOPER</h3>
     <!-- Profile Image -->
-    <img class="banner-yuri-photo rounded-circle" src="images/squareyuri.jpg" id="about-menu" alt="Photograph of Yuridia Larios"
-      class="banner-yuri-photo">
+    <img class="banner-yuri-photo rounded-circle" src="images/squareyuri.jpg" alt="Photograph of Yuridia Larios" class="banner-yuri-photo">
 
   </div> <!-- End of Jumbotron/Banner -->
 
@@ -103,7 +102,7 @@
 
 
     <!-- PORTFOLIO SECTION -->
-    <div class="container p-1 mb-5 portfolio-section" style="background-color: white">
+    <div id="work-menu" class="container p-1 mb-5 portfolio-section" style="background-color: white">
       <h2 class="display-4 text-center m-5">PORTFOLIO</h2>
 
       <div class="row">
@@ -220,7 +219,7 @@
 
 
     <!-- ABOUT SECTION -->
-    <div class="row" style="background-color: #eee">
+    <div id="about-menu" class="row" style="background-color: #eee">
       <div class="container mt-5 mb-5">
         <div class="row about-contact">
           <div class="col-lg-6 col-md-12 col-sm-12 col-12 bg-warning p-5">
@@ -239,10 +238,15 @@
               message!
             </p>
             <p>
-              Also, available for coffee ☕ meetings.
+              Also, available for ☕ coffee meetings.
               This site and the Work section ones were designed and built by hand from the ground up. Check out the
               code on my Github.
             </p>
+            <div class="text-center">
+              <a href="journey.html" class="btn btn-primary btn-md" role="button" aria-pressed="true">Full Journey</a>
+
+              <a href="resume2.html" class="btn btn-secondary btn-md" role="button" aria-pressed="true">Resume</a>
+            </div>
           </div>
 
           <div class="col-lg-6 col-md-12 col-sm-12 col-12 bg-light p-5">
@@ -276,11 +280,31 @@
             </div>
           </div>
         </div>
+        <!-- Footer -->
+        <footer class="page-footer font-small pt-4">
+          <div class="footer-copyright text-center py-3">
+
+            <a href="https://www.linkedin.com/in/yuridia-larios-aispuro " target="_blank"><img src="images/linkedin-icon.png"
+                alt="linkedin logo" class="social-icon"></a>
+            <a href="https://twitter.com/Yuridia_Larios " target="_blank"><img src="images/twitter-icon2.png" alt="twitter logo"
+                class="social-icon"></a>
+            <a href="https://github.com/YuridiaLarios " target="_blank"><img src="images/github.png" alt="github logo"
+                class="social-icon"></a>
+            <a href="https://www.facebook.com/yuridia.larios " target="_blank"><img src="images/fb-icon.png" alt="facebook logo"
+                class="social-icon"></a>
+            <p>&copy; 2017 Yuridia Larios</p>
+            <a href="#top">
+              <p>^ Back to Top ^</p>
+            </a>
+          </div>
+        </footer>
+        <!-- Footer -->
       </div>
     </div>
-
-
   </div> <!-- END OF WEBSITE WRAPPER -->
+
+
+
 
   <!--Bootstrap jQuery-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
