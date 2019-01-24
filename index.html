@@ -19,16 +19,19 @@
     crossorigin="anonymous">
 
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
 
-  <!--Fontawesome???????????-->
+  <!--Fontawesome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- add google fonts -->
+
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway" rel="stylesheet">
 </head>
 
 <body>
   <!--navbar-->
   <nav class="navbar navbar-expand-sm fixed-top navbar-dark" style="background-color: #000000;">
-    <a class="navbar-brand" href="index.html">Yuridia Larios</a>
+    <a class="navbar-brand" href="index.html">YURIDIA</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggle" aria-controls="myNavbarToggle"
       aria-expanded="false" aria-label="Toggle navigation">
@@ -37,39 +40,41 @@
 
     <div class="collapse navbar-collapse" id="myNavbarToggle">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/in/yuridia-larios-aispuro"><i class="fa fa-linkedin fa-2x"
+        <li class="nav-item mobile-noDisplay">
+          <a class="nav-link" href="https://www.linkedin.com/in/yuridia-larios-aispuro" target="_blank"><i class="fa fa-linkedin fa-2x"
               aria-hidden="true"></i></span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/YuridiaLarios"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        <li class="nav-item mobile-noDisplay">
+          <a class="nav-link" href="https://github.com/YuridiaLarios" target="_blank"><i class="fa fa-github fa-2x"
+              aria-hidden="true"></i></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://twitter.com/Yuridia_Larios"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+        <li class="nav-item mobile-noDisplay">
+          <a class="nav-link" href="https://twitter.com/Yuridia_Larios" target="blank"><i class="fa fa-twitter fa-2x"
+              aria-hidden="true"></i></a>
         </li>
       </ul>
 
+      <!-- add class josefin -->
       <div class="right-menu">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#about-menu">Home<span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link josefin" href="#home-menu">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio-menu">Work</a>
+            <a class="nav-link josefin" href="#work-menu">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about-menu">About</a>
+            <a class="nav-link josefin" href="#about-menu">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="resume2.html">Resume</a>
-          </li>
+        
         </ul>
       </div>
     </div>
-
   </nav>
-  <div class="jumbotron jumbotron-fluid banner" style="background-color: #000000;">
-    <img class="banner-yuri-photo" src="images/squareyuri.jpg" id="about-menu" alt="Photograph of Yuridia Larios" class="banner-yuri-photo">
+
+
+  <!-- Jumbotron/Banner -->
+  <div id="home-menu" class="jumbotron jumbotron-fluid banner mb-0 text-center" style="background-color: #000000;">
     <h1 class="banner-hello"></h1>
     <h2></h2>
     <ul class="fly-in-text yellow">
@@ -81,174 +86,241 @@
       <li>I</li>
       <li>A</li>
     </ul>
-    <h3 class="banner-jobTitle">Web Developer</h3>
-  </div>
+    <h3 class="banner-jobTitle"># WEB DEVELOPER</h3>
+    <!-- Profile Image -->
+    <img class="banner-yuri-photo rounded-circle" src="images/squareyuri.jpg" alt="Photograph of Yuridia Larios" class="banner-yuri-photo">
 
-
-  <div class="container-fluid bg-primary">
-
-
-
-
-    <div class="row bg-warning">
-      <section id="portfolio-menu" class="portfolio color_flip">
-        <div>
-          <h2 class="portfolio-title">PORTFOLIO</h2>
-        </div>
-        <div class="filter-menu">
-          <button class="active btn" id="all">Show All</button>
-          <button class="btn" id="a">Websites</button>
-          <button class="btn" id="d">JQuery Demos</button>
-          <button class="btn" id="b">Wordpress</button>
-          <button class="btn" id="c">Logos</button>
-        </div>
-
-        <!-- An element with an id is needed for the jQuery -->
-        <div id="parent">
-          <!-- The base class is the project-box. Categories are then given as accessory classes. Any div can be in more than one category -->
-          <div class="project-box a">
-            <li><a href="http://devmission.org/" target="_blank"><img src="images/devMission2.png" alt="devMission Website">
-                <p>Non-Profit: devMission</p>
-              </a></li>
-          </div>
-          <div class="project-box a">
-            <li><a href="http://yurisco.com/pages/nokia3310.html" target="_blank"><img src="images/nokia3310.png" alt="nokia3310 Website">
-                <p>Tribute Page</p>
-              </a></li>
-          </div>
-          <div class="project-box d">
-            <li><a href="http://yurisco.com/LearningProjects/twicthApp.html" target="_blank"><img src="images/twitchApp.png"
-                  alt="Twitch App">
-                <p>Twitch App</p>
-              </a></li>
-          </div>
-          <div class="project-box d">
-            <li><a href="https://codepen.io/yuridia/full/mMMrQy/" target="_blank"><img src="images/weather-app.png" alt="Weather App">
-                <p>Weather App</p>
-              </a></li>
-          </div>
-          <div class="project-box d">
-            <li><a href="https://codepen.io/yuridia/full/pWwqMX/" target="_blank"><img src="images/wikipedia-viewer.png"
-                  alt="Wikipedia Viewer">
-                <p>Wikipedia Viewer</p>
-              </a></li>
-          </div>
-          <div class="project-box d">
-            <li><a href="https://codepen.io/yuridia/full/jLyQYm/" target="_blank"><img src="images/quote-generator.png"
-                  alt="Quote Generator">
-                <p>Quote Machine Generator</p>
-              </a></li>
-          </div>
-          <div class="project-box a">
-            <li><a href="https://mission-techies.github.io/mission_techies_tracker.github.io/index.html" target="_blank"><img
-                  src="images/mission-techies-tracker.png" alt="mission techies tracker">
-                <p>Mission Techies Tracker 2016<br> First Project ever</p>
-              </a></li>
-          </div>
-          <div class="project-box b">
-            <li><a href="https://equinocciojewelry.wordpress.com/" target="_blank"><img src="images/equinoccio.png" alt="equinoccion SF local business">
-                <p>Equinoccio San Francisco Local Business 2016</p>
-              </a></li>
-          </div>
-          <div class="project-box b">
-            <li><a href="https://yurisworld.wordpress.com/" target="_blank"><img src="images/blog.png" alt="My personal blog">
-                <p>My personal wordpress blog 2016</p>
-              </a></li>
-          </div>
-          <div class="project-box c logo-img">
-            <li><a href="images/YL-logo.png"><img src="images/YL-logo.png" alt="My personal logo">
-                <p>My personal logo 2016</p>
-              </a></li>
-          </div>
-          <div class="project-box c logo-img">
-            <li><a href="images/roadmap-to-peace-logo.png"><img src="images/roadmap-to-peace-logo.png" alt="roadmap to peace non-profit logo contest: first place.">
-                <p> Non-profit Roadmap to peace. Contest: first place 2015</p>
-              </a></li>
-          </div>
-          <div class="project-box c logo-img">
-            <li><a href="images/ole-can-dance-logo.png"><img src="images/ole-can-dance-logo.png" alt="Dance Team Logo: Ole Can Dance 2014">
-                <p>Dance team logo: Ole Can Dance 2014</p>
-              </a></li>
-          </div>
-        </div>
-      </section>
-    </div>
+  </div> <!-- End of Jumbotron/Banner -->
 
 
 
 
-    <div class="row bg-info">
-      <section class="about-section color_flip">
-        <div class="about-inner-div">
-          <h2>ABOUT ME </h2>
-          <div class="row content">
-            <div class="col-md-6 col-sm-6">
-              <p class="about-description">Forever learning, evolving, and trying new technologies. <br>I'm a Front-end
-                Developer based in San Francisco, California. Looking for amazing projects? Send me a message!
+
+
+  <!-- WEBSITE WRAPPER CONTAINER-->
+  <div class="container-fluid ">
+
+
+
+
+
+    <!-- PORTFOLIO SECTION -->
+    <div id="work-menu" class="container p-1 mb-5 portfolio-section" style="background-color: white">
+      <!-- add class josefin -->
+      <h2 class="display-4 text-center m-5 josefin"  >PORTFOLIO</h2>
+
+      <div class="row">
+
+        <!-- Project 1: INFOCARD-->
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <a href="http://yurisco.com/techtonica-projects/recipe-page/index-bootstrap.html" target="_blank">
+            <div class="thumbnail">
+              <div class="infocard" style="background-image: url('images/recipePage.png')">
+              </div>
+              <div class="caption">
+                <h3>Hawaiian Pizza Recipe</h3>
+                <blockquote class="blockquote text-center">
+                  <p class="mb-0">Favorite food one page recipe </p>
+                  <footer class="technologies-footer">HTML5 / CSS3 / BOOTSTRAP 4</footer>
+                </blockquote>
+              </div>
             </div>
-            <div class="col-md-6 col-sm-6">
-              <p class="about-description">Currently doing freelance. Also, available for coffee meetings.<br>This site
-                and
-                the Work section ones were designed and built by hand from the ground up. Check out the code on my
-                Github.</p>
+          </a>
+        </div>
+
+        <!-- Project 2: INFOCARD-->
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <a href="http://yurisco.com/pages/nokia3310.html" target="_blank">
+            <div class="thumbnail">
+              <div class="infocard" style="background-image: url('images/nokia3310.png')">
+              </div>
+              <div class="caption">
+                <h3>Nokia3310</h3>
+                <blockquote class="blockquote text-center">
+                  <p class="mb-0">Tribute Page to Nokia3310 </p>
+                  <footer class="technologies-footer">HTML5 / CSS3 / JavaScript / Jquery</footer>
+                </blockquote>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 3: INFOCARD-->
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <a href="http://yurisco.com/LearningProjects/twicthApp.html" target="_blank">
+            <div class="thumbnail">
+              <div class="infocard" style="background-image: url('images/twitchApp.png')">
+              </div>
+              <div class="caption">
+                <h3>Twitch App</h3>
+                <blockquote class="blockquote text-center">
+                  <p class="mb-0">Personal channel dashboard
+                  </p>
+                  <footer class="technologies-footer">HTML5 / CSS3 / Javascript / Twitch.tv API</footer>
+                </blockquote>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 4: INFOCARD-->
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <a href="https://codepen.io/yuridia/full/mMMrQy/" target="_blank">
+            <div class="thumbnail">
+              <div class="infocard" style="background-image: url('images/weatherApp3.png')">
+              </div>
+              <div class="caption">
+                <h3>Weather App</h3>
+                <blockquote class="blockquote text-center">
+                  <p class="mb-0">A current weather app
+                  </p>
+                  <footer class="technologies-footer">HTML5 / CSS3 / Javascript / FCC-weather-API</footer>
+                </blockquote>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 5: INFOCARD-->
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <a href="https://codepen.io/yuridia/full/pWwqMX/" target="_blank">
+            <div class="thumbnail">
+              <div class="infocard" style="background-image: url('images/wikipedia-viewer.png')">
+              </div>
+              <div class="caption">
+                <h3>Wikipedia Viewer</h3>
+                <blockquote class="blockquote text-center">
+                  <p class="mb-0">Wikipedia article search bar
+                  </p>
+                  <footer class="technologies-footer">HTML5 / CSS3 / Javascript / Jquery / wikipedia-API</footer>
+                </blockquote>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 6: INFOCARD-->
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <a href="https://codepen.io/yuridia/full/jLyQYm/" target="_blank">
+            <div class="thumbnail">
+              <div class="infocard" style="background-image: url('images/quoteGenerator.png')">
+              </div>
+              <div class="caption">
+                <h3>Quote Generator</h3>
+                <blockquote class="blockquote text-center">
+                  <p class="mb-0">Generates a random quote
+                  </p>
+                  <footer class="technologies-footer">HTML5 / CSS3 / Javascript / Json Data </footer>
+                </blockquote>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div> <!-- END OF PORTFOLIO SECTION -->
+
+
+
+    <!-- ABOUT SECTION -->
+    <div id="about-menu" class="row" style="background-color: #eee">
+      <div class="container mt-5 mb-5">
+        <div class="row about-contact">
+
+          <!-- added class black-bkgd -->
+          <div class="col-lg-6 col-md-12 col-sm-12 col-12 bg-warning p-5 black-bkgd">
+
+            <!-- add class josefin -->
+            <h2 class="display-4 text-center m-5 josefin">ABOUT ME</h2>
+
+
+            <!-- add class raleway -->
+            <div class="raleway">           
+               <p>
+              <strong>Lemma:</strong>
+              Forever learning, evolving, and trying new technologies.<br>
+              <br><strong>Current: </strong> @Techtonica Software Engineer Apprentice. <br><br><strong>Where:</strong>
+              San
+              Francisco, California.<br><br>
+              <strong>Main focus:</strong> Full-stack JavaScript, building and designing
+              web-apps. <br><br><strong> Looking for amazing projects?</strong>
+              <br>Send
+              me a
+              message!
+            </p>
+            <p>
+              Also, available for ☕ coffee meetings.
+              This site and the Work section ones were designed and built by hand from the ground up. Check out the
+              code on my Github.
+            </p>
+          </div>
+
+            <div class="text-center">
+
+              <!-- added class margin  -->
+              <a href="journey.html" class="btn btn-secondary btn-md margin" role="button" aria-pressed="true">Full Journey</a>
+
+              <a href="resume2.html" class="btn btn-secondary btn-md " role="button" aria-pressed="true">Resume</a>
             </div>
           </div>
 
-          <div class="about-skills">
-            <img src="images/skills-html5.png" class="about-skills-icons">
-            <img src="images/skills-css3.png" class="about-skills-icons">
-            <img src="images/skills-boostrap.png" class="about-skills-icons">
-            <img src="images/skills-js.png" class="about-skills-icons">
-            <img src="images/skills-jquery.png" class="about-skills-icons">
-            <img src="images/skills-git.png" class="about-skills-icons">
-            <img src="images/skills-ps.png" class="about-skills-icons">
-            <img src="images/skills-wordpress.png" class="about-skills-icons">
-          </div>
-        </div>
-      </section>
-    </div>
-    <div class="row bg-success">
-      <section class="contact color_flip">
-        <h2 id="contact-menu">GET IN TOUCH! </h2>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-12 bg-light p-5">
 
-        <div class="contact-inner-div">
-          <div class="contact-logo-container">
-            <img src="images/original-logo.png" alt="yuri's logo">
-          </div>
-          <div class="contact-info-container">
-            <ul>
-              <li class="phone"><a href="tel: 415-574-6654"><i class="fa fa-phone fa-2x" aria-hidden="true"></i>
-                  (415) 574 66-54</a></li>
-              <li class="mail"><a href="mailto:yuriydani@gmail.com"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
-                  YLariosAispuro@gmail.com</a></li>
-              <li class="linkedin"><a href="https://www.linkedin.com/in/yuridia-larios-aispuro"><i class="fa fa-linkedin fa-2x"
-                    aria-hidden="true"></i>
-                  Linkedin/Yuridia-Larios</a></li>
-              <li class="twitter"><a href="https://twitter.com/intent/tweet?screen_name=Yuridia_Larios"><i class="fa fa-twitter fa-2x"
-                    aria-hidden="true"></i>
-                  #Yuridia-Larios</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="contact-more-buttons">
-          <button class="btn contact-buttons contact-journey-button"><a href="journey.html">Full Journey</a></button>
-          <button class="btn contact-buttons"><a href="resume2.html">Resume</a></button>
-        </div>
-      </section>
-    </div>
+            <!-- add class josefin -->
+            <h2 class="display-4 text-center m-5 josefin">CONTACT</h2>
 
-    <footer class="page-footer font-small bg-dark pt-4">
-      <a href="https://www.linkedin.com/in/yuridia-larios-aispuro"><img src="images/linkedin-icon.png" alt="linkedin logo"
-          class="social-icon"></a>
-      <a href="https://twitter.com/Yuridia_Larios"><img src="images/twitter-icon2.png" alt="twitter logo" class="social-icon"></a>
-      <a href="https://github.com/YuridiaLarios"><img src="images/github.png" alt="github logo" class="social-icon"></a>
-      <a href="https://www.facebook.com/yuridia.larios"><img src="images/fb-icon.png" alt="facebook logo" class="social-icon"></a>
-      <p>&copy; 2017 Yuridia Larios</p>
-      <a href="#top">
-        <p>back to top</p>
-      </a>
-    </footer>
-  </div> <!-- END OF WRAPPING CONTAINER -->
+            <div class="contact-info-container ">
+              <ul class="raleway">
+                <li class="phone"><a href="tel: 415-574-6654"><i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+                    (415) 574 66-54</a></li>
+                <li class="mail"><a href="mailto:yuriydani@gmail.com"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+                    YLariosAispuro@gmail.com</a></li>
+                <li class="linkedin"><a href="https://www.linkedin.com/in/yuridia-larios-aispuro" target="_blank"><i
+                      class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                    Linkedin/Yuridia-Larios</a></li>
+                <li class="twitter"><a href="https://twitter.com/intent/tweet?screen_name=Yuridia_Larios" target="_blank"><i
+                      class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                    #Yuridia-Larios</a></li>
+              </ul>
+            </div>
+            <div class="container about-section text-center mb-0">
+              <div class="row">
+                <img src="images/skills-html5.png" class="about-skills-icons">
+                <img src="images/skills-css3.png" class="about-skills-icons">
+                <img src="images/skills-boostrap.png" class="about-skills-icons">
+                <img src="images/skills-js.png" class="about-skills-icons">
+                <img src="images/skills-jquery.png" class="about-skills-icons">
+                <img src="images/skills-git.png" class="about-skills-icons">
+                <img src="images/skills-ps.png" class="about-skills-icons">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer -->
+        <footer class="page-footer font-small pt-4">
+          <div class="footer-copyright text-center py-3">
+
+            <a href="https://www.linkedin.com/in/yuridia-larios-aispuro " target="_blank"><img src="images/linkedin-icon.png"
+                alt="linkedin logo" class="social-icon"></a>
+            <a href="https://twitter.com/Yuridia_Larios " target="_blank"><img src="images/twitter-icon2.png" alt="twitter logo"
+                class="social-icon"></a>
+            <a href="https://github.com/YuridiaLarios " target="_blank"><img src="images/github.png" alt="github logo"
+                class="social-icon"></a>
+            <a href="https://www.facebook.com/yuridia.larios " target="_blank"><img src="images/fb-icon.png" alt="facebook logo"
+                class="social-icon"></a>
+            <p>&copy; 2017 Yuridia Larios</p>
+            <a href="#home-menu">
+              <p>^ Back to Top ^</p>
+            </a>
+          </div>
+        </footer>
+        <!-- Footer -->
+      </div>
+    </div>
+  </div> <!-- END OF WEBSITE WRAPPER -->
+
+
+
 
   <!--Bootstrap jQuery-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -262,9 +334,23 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <script src="js/script.js"></script>
+  <script>
+    $('a[href^="#"]').on('click', function (event) {
 
+      var target = $(this.getAttribute('href'));
+
+      if (target.length) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+          scrollTop: target.offset().top
+        }, 1000);
+      }
+
+    });
+  </script>
 
 </body>
+
+
 
 </html>

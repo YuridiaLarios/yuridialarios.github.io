@@ -9,7 +9,9 @@ NAVBAR
 /**********************************
 HEADING: BANNER
 ***********************************/
-
+.portfolio-section {
+  margin-top: 1900px;
+}
 
 .banner {
   position: relative;
@@ -155,13 +157,13 @@ BODY: SECTION: about-section
   /* IE5+ */
   -webkit-filter: grayscale(1);
   /* Webkit Nightlies & Chrome Canary */
-  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .color_flip:hover {
   filter: none;
   -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 
@@ -242,7 +244,6 @@ BODY: SECTION: about-section
   background: white;
   cursor: pointer;
   display: inline-block;
-  float: left;
 }
 
 .project-box:hover {
@@ -357,7 +358,7 @@ BODY: SECTION: CONTACT PAGE
 }
 
 .contact-info-container li:hover {
-  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 .contact-info-container li a:hover {
@@ -376,7 +377,7 @@ BODY: SECTION: CONTACT PAGE
 .contact-buttons:hover {
   background-color: green;
   box-shadow: 5px 5px 3px #aaa;
-  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
   opacity: 0.8;
 
 }
