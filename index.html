@@ -318,6 +318,23 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+  <script>
+    $('a[href^="#"]').on('click', function (event) {
+
+      var target = $(this.getAttribute('href'));
+
+      if (target.length) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+          scrollTop: target.offset().top
+        }, 1000);
+      }
+
+    });
+  </script>
+
 </body>
+
+
 
 </html>
