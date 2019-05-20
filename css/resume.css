@@ -1,4 +1,3 @@
-
 /**********************************
 BODY: HEADER: NAVBAR
 ***********************************/
@@ -12,20 +11,24 @@ BODY: HEADER: NAVBAR
   text-align: center;
 }
 
-.navbar a{
+.navbar a {
   color: #66757f;
   font-family: "Open Sans", "Arial";
   font-weight: bold;
 }
 
 .active {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 
 /**********************************
 BODY: BIG CONTAINER
 ***********************************/
+
+#resume-body {
+  background-color: #515658;
+}
 
 #container {
   overflow: hidden;
@@ -34,7 +37,8 @@ BODY: BIG CONTAINER
 
 }
 
-#container h1, h3{
+#container h1,
+h3 {
   text-align: center;
 }
 
@@ -68,10 +72,11 @@ BODY: LEFT CONTAINER
 BODY: RIGH CONTAINER
 ***********************************/
 #container #right {
-  padding:30px;
+  padding: 30px;
   float: left;
   width: 57%;
-  margin-right: -1px; /* Thank you IE */
+  margin-right: -1px;
+  /* Thank you IE */
   background-color: white;
   box-shadow: 0 35px 40px -12px rgba(0, 0, 0, .8);
   padding-bottom: 500em;
@@ -79,27 +84,29 @@ BODY: RIGH CONTAINER
   font-size: 16px;
 }
 
- /**********************************
+/**********************************
  FOOTER
  ***********************************/
- footer{
+footer {
 
-   font-size: 1em;
-   text-align: center;
-   clear: both; /* will cancel float property from gallery*/
-   padding: 45px;
-   color: #ccc;
-   margin-top: 1.5%;
-   margin-bottom: 0%;
-   background: black;
- }
- footer p{
-   margin: 15px;
- }
+  font-size: 1em;
+  text-align: center;
+  clear: both;
+  /* will cancel float property from gallery*/
+  padding: 45px;
+  color: #ccc;
+  margin-top: 1.5%;
+  margin-bottom: 0%;
+  background: black;
+}
 
- .social-icon{
+footer p {
+  margin: 15px;
+}
+
+.social-icon {
   width: 35px;
   height: 35px;
   margin: 0px 5px;
   color: gray;
- }
+}
